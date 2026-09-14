@@ -1,24 +1,24 @@
 window.QUESTION_BANK = [
   {
-    "q": "¿Qué se conmemora el 18 de septiembre de 1810?",
+    "q": "¿Qué institución se reunió en 1810 tras la destitución del gobernador García Carrasco?",
     "o": [
-      "Declaración de independencia",
-      "Primera Junta Nacional de Gobierno",
-      "Batalla de Maipú",
-      "Captura del Huáscar"
+      "Cabildo abierto de Santiago",
+      "Congreso de Angostura",
+      "Real Audiencia de Lima",
+      "Senado de 1833"
     ],
-    "a": 1,
+    "a": 0,
     "topic": "🇨🇱 Historia e Independencia"
   },
   {
-    "q": "¿En qué fecha se proclamó/juró la independencia?",
+    "q": "¿Quién fue nombrado presidente de la Primera Junta Nacional de Gobierno de 1810?",
     "o": [
-      "18/09/1810",
-      "21/05/1879",
-      "12/02/1818",
-      "05/04/1818"
+      "Mateo de Toro y Zambrano",
+      "Bernardo O’Higgins",
+      "José Miguel Carrera",
+      "Manuel Rodríguez"
     ],
-    "a": 2,
+    "a": 0,
     "topic": "🇨🇱 Historia e Independencia"
   },
   {
@@ -30,17 +30,17 @@ window.QUESTION_BANK = [
       "Tonada"
     ],
     "a": 0,
-    "topic": "🚩 Símbolos nacionales"
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
-    "q": "¿Qué animales aparecen en el escudo?",
+    "q": "¿Qué estrella blanca aparece en el cantón azul de la bandera chilena?",
     "o": [
-      "Cóndor y puma",
-      "Huemul y cóndor",
-      "Huemul y guanaco",
-      "Águila y huemul"
+      "Una estrella de cinco puntas",
+      "Una estrella de seis puntas",
+      "La Cruz del Sur",
+      "El Sol"
     ],
-    "a": 1,
+    "a": 0,
     "topic": "🚩 Símbolos nacionales"
   },
   {
@@ -195,7 +195,7 @@ window.QUESTION_BANK = [
       "Salitreras"
     ],
     "a": 1,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué viral se asocia a Víctor Díaz?",
@@ -275,14 +275,14 @@ window.QUESTION_BANK = [
     "topic": "🍴 Gastronomía y bebidas"
   },
   {
-    "q": "¿Qué zona es famosa por observatorios?",
+    "q": "¿Qué gran proyecto astronómico internacional se encuentra en el cerro Armazones, en Antofagasta?",
     "o": [
-      "Patagonia",
-      "Atacama",
-      "Chiloé",
-      "Maule"
+      "Extremely Large Telescope (ELT)",
+      "Hubble",
+      "ALMA Hawaii",
+      "James Webb"
     ],
-    "a": 1,
+    "a": 0,
     "topic": "🔭 Astronomía"
   },
   {
@@ -404,7 +404,7 @@ window.QUESTION_BANK = [
       "Huemul"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué grupo mezcla rock y raíces latinoamericanas?",
@@ -440,36 +440,36 @@ window.QUESTION_BANK = [
     "topic": "🎵 Música y cultura popular"
   },
   {
-    "q": "¿Cuál es el lema del escudo?",
+    "q": "¿Qué elemento NO aparece en el escudo nacional de Chile?",
     "o": [
-      "Orden y progreso",
-      "Por la razón o la fuerza",
-      "Libertad o muerte",
-      "Chile unido"
+      "Un huemul",
+      "Un cóndor",
+      "Una estrella",
+      "Un puma"
     ],
-    "a": 1,
+    "a": 3,
     "topic": "🚩 Símbolos nacionales"
   },
   {
-    "q": "¿Quién compuso la música del himno?",
+    "q": "¿Qué animal representa tradicionalmente la fuerza y nobleza en el escudo nacional?",
     "o": [
-      "Ramón Carnicer",
-      "Eusebio Lillo",
-      "Violeta Parra",
-      "Claudio Arrau"
+      "Huemul",
+      "Zorro culpeo",
+      "Puma",
+      "Guanaco"
     ],
     "a": 0,
     "topic": "🚩 Símbolos nacionales"
   },
   {
-    "q": "¿Quién escribió la letra vigente del himno?",
+    "q": "¿Qué lema aparece en el escudo nacional chileno?",
     "o": [
-      "Carnicer",
-      "Eusebio Lillo",
-      "Camilo Henríquez",
-      "Neruda"
+      "Por la razón o la fuerza",
+      "Libertad o muerte",
+      "Vencer o morir",
+      "Chile para todos"
     ],
-    "a": 1,
+    "a": 0,
     "topic": "🚩 Símbolos nacionales"
   },
   {
@@ -492,7 +492,7 @@ window.QUESTION_BANK = [
       "Rapa Nui"
     ],
     "a": 0,
-    "topic": "🏛️ Santiago y patrimonio"
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué ciudad es famosa por palafitos?",
@@ -503,7 +503,7 @@ window.QUESTION_BANK = [
       "La Serena"
     ],
     "a": 0,
-    "topic": "🏛️ Santiago y patrimonio"
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué pueblo se asocia a Rapa Nui?",
@@ -539,15 +539,15 @@ window.QUESTION_BANK = [
     "topic": "🌺 Pueblos originarios"
   },
   {
-    "q": "¿Qué pueblo se asocia al extremo austral?",
+    "q": "¿Qué edificio histórico de Santiago fue construido como casa de gobierno y hoy alberga un museo?",
     "o": [
-      "Yagán",
-      "Diaguita",
-      "Aymara",
-      "Quechua"
+      "Palacio de La Moneda",
+      "Museo de Bellas Artes",
+      "Estación Mapocho",
+      "Biblioteca Nacional"
     ],
     "a": 0,
-    "topic": "🌺 Pueblos originarios"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Quién comandaba la Covadonga?",
@@ -594,48 +594,48 @@ window.QUESTION_BANK = [
     "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
-    "q": "¿El 17 de septiembre de 2026 es feriado?",
+    "q": "¿Quién asumió la Presidencia de Chile el 11 de marzo de 2026?",
     "o": [
-      "No",
-      "Sí, irrenunciable",
-      "Sí, nacional",
-      "Solo Santiago"
+      "José Antonio Kast",
+      "Gabriel Boric",
+      "Sebastián Piñera",
+      "Ricardo Lagos"
     ],
     "a": 0,
     "topic": "📅 Actualidad 2026"
   },
   {
-    "q": "¿Qué días son feriados en Fiestas Patrias 2026?",
+    "q": "¿Cuántas personas fueron censadas en Chile en el Censo 2024?",
     "o": [
-      "16 y 17",
-      "17 y 18",
-      "18 y 19",
-      "19 y 20"
+      "18.480.432",
+      "17.574.003",
+      "19.500.000",
+      "16.200.000"
     ],
-    "a": 2,
+    "a": 0,
     "topic": "📅 Actualidad 2026"
   },
   {
-    "q": "¿Qué región concentra cerca del 40% de la población censada?",
+    "q": "Según el Censo 2024, ¿qué porcentaje de la población censada corresponde a mujeres?",
     "o": [
-      "Biobío",
-      "Metropolitana",
-      "Valparaíso",
-      "Maule"
+      "51,5%",
+      "48,5%",
+      "50%",
+      "53,2%"
     ],
-    "a": 1,
-    "topic": "🗺️ Geografía y regiones"
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
   },
   {
-    "q": "¿Cuántas personas fueron censadas en 2024?",
+    "q": "Según el Censo 2024, ¿qué porcentaje de la población de Chile tenía 65 años o más?",
     "o": [
-      "15,2 millones",
-      "18.480.432",
-      "20,5 millones",
-      "12 millones"
+      "14%",
+      "9%",
+      "17,7%",
+      "21%"
     ],
-    "a": 1,
-    "topic": "🗺️ Geografía y regiones"
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
   },
   {
     "q": "¿Qué palabra significa pareja?",
@@ -998,7 +998,7 @@ window.QUESTION_BANK = [
       "Yagán"
     ],
     "a": 0,
-    "topic": "🏛️ Santiago y patrimonio"
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué sistema patrimonial recorre países andinos?",
@@ -1009,7 +1009,7 @@ window.QUESTION_BANK = [
       "Camino Real"
     ],
     "a": 0,
-    "topic": "🏛️ Santiago y patrimonio"
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué canción es de Violeta Parra?",
@@ -1067,12 +1067,12 @@ window.QUESTION_BANK = [
     "topic": "📚 Literatura"
   },
   {
-    "q": "¿Qué término significa trabajo?",
+    "q": "En Chile, ¿qué significa decir que alguien está “chato”?",
     "o": [
-      "Pega",
-      "Pato",
-      "Fome",
-      "Filo"
+      "Que está cansado o harto",
+      "Que está muy feliz",
+      "Que tiene mucho dinero",
+      "Que llegó tarde"
     ],
     "a": 0,
     "topic": "🗣️ Modismos chilenos"
@@ -1174,26 +1174,26 @@ window.QUESTION_BANK = [
       "Municipalidad"
     ],
     "a": 0,
-    "topic": "🏛️ Santiago y patrimonio"
+    "topic": "🔭 Astronomía"
   },
   {
-    "q": "¿Qué observatorio está en Chile?",
+    "q": "¿Qué observatorio chileno está asociado al conjunto de radiotelescopios ALMA?",
     "o": [
-      "ALMA",
-      "Hubble",
-      "Arecibo",
-      "James Webb"
+      "Observatorio ALMA",
+      "Observatorio Paranal",
+      "Observatorio La Silla",
+      "Observatorio Tololo"
     ],
     "a": 0,
     "topic": "🔭 Astronomía"
   },
   {
-    "q": "¿Qué condición favorece la astronomía de Atacama?",
+    "q": "¿Qué fenómeno atmosférico es especialmente bajo en el desierto de Atacama y ayuda a observar el cielo?",
     "o": [
-      "Sequedad y cielos despejados",
-      "Lluvias constantes",
-      "Alta humedad",
-      "Nieve permanente"
+      "Vapor de agua y nubosidad",
+      "Auroras polares",
+      "Tormentas tropicales",
+      "Monzones"
     ],
     "a": 0,
     "topic": "🔭 Astronomía"
@@ -1251,7 +1251,7 @@ window.QUESTION_BANK = [
       "Grau"
     ],
     "a": 0,
-    "topic": "🇨🇱 Historia e Independencia"
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué batalla consolidó militarmente la independencia?",
@@ -1262,7 +1262,7 @@ window.QUESTION_BANK = [
       "Angamos"
     ],
     "a": 0,
-    "topic": "🇨🇱 Historia e Independencia"
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué batalla ocurrió en 1817?",
@@ -1273,7 +1273,7 @@ window.QUESTION_BANK = [
       "Punta Gruesa"
     ],
     "a": 0,
-    "topic": "🇨🇱 Historia e Independencia"
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué se conmemora el 21 de mayo?",
@@ -1298,158 +1298,158 @@ window.QUESTION_BANK = [
     "topic": "🚩 Símbolos nacionales"
   },
   {
-    "q": "¿Cuál es el lema del escudo?",
+    "q": "¿Qué ave representa tradicionalmente la libertad y forma parte del escudo nacional de Chile?",
     "o": [
-      "Por la razón o la fuerza",
-      "Libertad, igualdad, fraternidad",
-      "Chile unido",
-      "Vencer o morir"
+      "Cóndor",
+      "Halcón peregrino",
+      "Flamenco",
+      "Tucúquere"
     ],
     "a": 0,
     "topic": "🚩 Símbolos nacionales"
   },
   {
-    "q": "¿Qué días son feriados en Fiestas Patrias 2026?",
+    "q": "En 2026, ¿qué días de septiembre son feriados obligatorios e irrenunciables para los trabajadores del comercio por Fiestas Patrias?",
     "o": [
       "18 y 19",
       "17 y 18",
-      "19 y 20",
-      "16 y 17"
+      "18 y 20",
+      "19 y 20"
     ],
     "a": 0,
     "topic": "📅 Actualidad 2026"
   },
   {
-    "q": "¿El 17 de septiembre de 2026 es feriado?",
+    "q": "En 2026, ¿qué ocurre con el 17 de septiembre respecto de las Fiestas Patrias?",
     "o": [
-      "No",
-      "Sí, irrenunciable",
-      "Sí, nacional",
-      "Solo Santiago"
+      "No es feriado nacional por regla general",
+      "Es siempre feriado irrenunciable",
+      "Reemplaza al 18 de septiembre",
+      "Es feriado solo para colegios"
     ],
     "a": 0,
     "topic": "📅 Actualidad 2026"
   },
   {
-    "q": "¿Qué asociación corresponde a “Zafrada”?",
+    "q": "¿Qué viral chileno quedó asociado a la frase “no estoy ni ahí”?",
     "o": [
-      "Frazada",
-      "Manjar",
-      "Choclo",
-      "Chimuelo"
+      "Jorge “Coke” Hevia",
+      "Iván Zamorano",
+      "Gary Medel",
+      "Jorge Sampaoli"
     ],
     "a": 0,
     "topic": "😂 Virales y memes chilenos"
   },
   {
-    "q": "¿Qué asociación corresponde a “Chimuelo”?",
+    "q": "¿Qué nombre recibe la canción o audio que suele acompañar el viral de Chimuelo?",
     "o": [
-      "Funeral de una catita",
-      "Bicicleta",
-      "Terremoto",
-      "Micro"
-    ],
-    "a": 0,
-    "topic": "😂 Virales y memes chilenos"
-  },
-  {
-    "q": "¿Qué asociación corresponde a “El Tarro”?",
-    "o": [
-      "Bicicleta y caída",
-      "Catita",
-      "Micro 712",
-      "Madre leona"
-    ],
-    "a": 0,
-    "topic": "😂 Virales y memes chilenos"
-  },
-  {
-    "q": "¿Qué asociación corresponde a “Madre leona”?",
-    "o": [
-      "Marcela Villarroel",
-      "Víctor Díaz",
-      "Renato",
-      "Miguel González"
-    ],
-    "a": 0,
-    "topic": "😂 Virales y memes chilenos"
-  },
-  {
-    "q": "¿Qué asociación corresponde a “No estoy ni ahí”?",
-    "o": [
-      "Chino Ríos",
-      "Prat",
-      "Neruda",
-      "O'Higgins"
-    ],
-    "a": 0,
-    "topic": "😂 Virales y memes chilenos"
-  },
-  {
-    "q": "¿Cuántos pueblos indígenas u originarios reconoce la ley chilena?",
-    "o": [
-      "8",
-      "9",
-      "10",
-      "11"
-    ],
-    "a": 3,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario se asocia especialmente con Rapa Nui y los moái?",
-    "o": [
-      "Yagán",
-      "Rapa Nui",
-      "Selk'nam",
-      "Aymara"
+      "“Tú me hiciste volar”",
+      "“Un funeral para un amigo”",
+      "“Gracias a la vida”",
+      "“Todos juntos”"
     ],
     "a": 1,
-    "topic": "🌺 Pueblos originarios"
+    "topic": "😂 Virales y memes chilenos"
   },
   {
-    "q": "¿Qué pueblo originario tiene la mayor población según el Censo 2024?",
+    "q": "¿Qué elemento del relato de El Tarro se volvió parte del meme?",
     "o": [
-      "Aymara",
-      "Diaguita",
-      "Mapuche",
-      "Rapa Nui"
-    ],
-    "a": 2,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿A qué pueblo se asocia especialmente el altiplano de Arica y Parinacota?",
-    "o": [
-      "Aymara",
-      "Chango",
-      "Yagán",
-      "Selk'nam"
+      "Una caída en bicicleta",
+      "Un salto en paracaídas",
+      "Un gol de chilena",
+      "Una carrera de perros"
     ],
     "a": 0,
-    "topic": "🌺 Pueblos originarios"
+    "topic": "😂 Virales y memes chilenos"
   },
   {
-    "q": "¿Con qué zona se asocia especialmente el pueblo Lickanantay o Atacameño?",
+    "q": "¿Qué rasgo hizo reconocible al personaje del viral “Madre leona”?",
     "o": [
-      "Isla de Chiloé",
-      "Desierto de Atacama",
-      "Tierra del Fuego",
-      "Valdivia"
-    ],
-    "a": 1,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario se vincula históricamente con la costa del norte de Chile?",
-    "o": [
-      "Chango",
-      "Mapuche",
-      "Rapa Nui",
-      "Kawésqar"
+      "Su forma de defender a su familia",
+      "Su talento para cantar",
+      "Su oficio de futbolista",
+      "Su colección de autos"
     ],
     "a": 0,
-    "topic": "🌺 Pueblos originarios"
+    "topic": "😂 Virales y memes chilenos"
+  },
+  {
+    "q": "¿Qué programa de televisión popularizó a muchos personajes y frases de humor chileno en los 2000?",
+    "o": [
+      "Morandé con Compañía",
+      "31 Minutos",
+      "Los 80",
+      "Al fondo hay sitio"
+    ],
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
+  },
+  {
+    "q": "¿Qué significa “pololo” en el español chileno?",
+    "o": [
+      "Pareja o novio/a",
+      "Amigo de infancia",
+      "Jefe de trabajo",
+      "Vecino"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
+  },
+  {
+    "q": "¿Qué significa “bacán” en Chile?",
+    "o": [
+      "Muy bueno o genial",
+      "Muy caro",
+      "Muy pequeño",
+      "Muy lejos"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
+  },
+  {
+    "q": "¿Qué significa “lucas” en el habla chilena?",
+    "o": [
+      "Pesos o dinero",
+      "Zapatos",
+      "Horas",
+      "Comida"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
+  },
+  {
+    "q": "¿Qué significa “carrete” en Chile?",
+    "o": [
+      "Fiesta o reunión social",
+      "Trabajo pesado",
+      "Viaje largo",
+      "Comida familiar"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
+  },
+  {
+    "q": "¿Qué significa “pucha” en el habla chilena?",
+    "o": [
+      "Expresión de sorpresa, molestia o decepción",
+      "Una bebida",
+      "Un baile",
+      "Un tipo de pan"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
+  },
+  {
+    "q": "¿Qué significa “la pega” en Chile?",
+    "o": [
+      "El trabajo",
+      "La casa",
+      "La escuela",
+      "La comida"
+    ],
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Qué pueblo originario se asocia con el canal Beagle?",
@@ -1628,222 +1628,221 @@ window.QUESTION_BANK = [
     "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
-    "q": "¿Cuántos pueblos indígenas u originarios reconoce actualmente la legislación chilena?",
+    "q": "¿Qué organismo público participa en la protección y promoción de los derechos de los pueblos indígenas en Chile?",
     "o": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "CONADI",
+      "SERNAC",
+      "SAG",
+      "SUBTEL"
     ],
-    "a": 2,
-    "e": "La legislación chilena reconoce 11 pueblos indígenas: Aymara, Quechua, Atacameño/Lickanantay, Chango, Diaguita, Colla, Mapuche, Selk'nam, Kawésqar, Yagán y Rapa Nui.",
+    "a": 0,
     "topic": "🌺 Pueblos originarios"
   },
   {
-    "q": "¿Qué pueblo originario es el más numeroso según el Censo 2024?",
+    "q": "¿Qué lengua originaria de Chile es especialmente conocida por su uso histórico entre el pueblo mapuche?",
+    "o": [
+      "Mapudungun",
+      "Rapa Nui",
+      "Kawésqar",
+      "Aymara"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario se asocia especialmente con el lago Titicaca y el altiplano andino?",
     "o": [
       "Aymara",
       "Mapuche",
-      "Diaguita",
-      "Rapa Nui"
-    ],
-    "a": 1,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo se asocia tradicionalmente con el altiplano del extremo norte de Chile?",
-    "o": [
-      "Aymara",
-      "Chango",
-      "Yagán",
-      "Kawésqar"
+      "Selk’nam",
+      "Chango"
     ],
     "a": 0,
     "topic": "🌺 Pueblos originarios"
   },
   {
-    "q": "¿En qué zona se concentra históricamente el pueblo Lickanantay (Atacameño)?",
+    "q": "¿Qué pueblo originario se relaciona con San Pedro de Atacama y el desierto del norte?",
     "o": [
-      "Antofagasta y el desierto de Atacama",
-      "Archipiélago de Chiloé",
-      "Tierra del Fuego",
-      "Rapa Nui"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario tiene una relación histórica especialmente ligada a la navegación de los canales australes?",
-    "o": [
-      "Diaguita",
-      "Yagán",
-      "Colla",
-      "Aymara"
-    ],
-    "a": 1,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo se asocia especialmente al estrecho de Magallanes y los canales patagónicos?",
-    "o": [
-      "Kawésqar",
-      "Chango",
-      "Quechua",
-      "Diaguita"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo habitó históricamente gran parte de Tierra del Fuego?",
-    "o": [
-      "Selk'nam",
       "Lickanantay",
-      "Aymara",
-      "Rapa Nui"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario se asocia a la costa del norte semiárido de Chile?",
-    "o": [
-      "Chango",
       "Yagán",
-      "Selk'nam",
+      "Rapa Nui",
       "Mapuche"
     ],
     "a": 0,
     "topic": "🌺 Pueblos originarios"
   },
   {
-    "q": "¿Qué pueblo originario tiene como territorio cultural principal la isla de Rapa Nui?",
+    "q": "¿Qué pueblo originario utilizó tradicionalmente canoas para desplazarse por los canales australes?",
     "o": [
-      "Rapa Nui",
+      "Yagán",
+      "Diaguita",
       "Aymara",
-      "Diaguita",
-      "Kawésqar"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario desarrolló la tradición monumental de los moái?",
-    "o": [
-      "Mapuche",
-      "Rapa Nui",
-      "Chango",
-      "Selk'nam"
-    ],
-    "a": 1,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo se vincula especialmente con el valle central y centro-sur de Chile?",
-    "o": [
-      "Mapuche",
-      "Rapa Nui",
-      "Yagán",
-      "Chango"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Cuál de estos pueblos fue reconocido legalmente en Chile en 2023?",
-    "o": [
-      "Selk'nam",
-      "Inca",
-      "Muisca",
-      "Guaraní"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Cuál de estos pueblos fue reconocido legalmente en 2020?",
-    "o": [
-      "Chango",
-      "Inca",
-      "Tehuelche",
-      "Atacameño"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué institución estatal se creó mediante la Ley 19.253 para asuntos de desarrollo indígena?",
-    "o": [
-      "CONADI",
-      "CORFO",
-      "SERNATUR",
-      "INDH"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué ley es conocida como Ley Indígena de Chile?",
-    "o": [
-      "Ley 18.834",
-      "Ley 19.253",
-      "Ley 20.500",
-      "Ley 21.606"
-    ],
-    "a": 1,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo originario se conoce también como Yámana en la legislación tradicional?",
-    "o": [
-      "Yagán",
-      "Kawésqar",
-      "Selk'nam",
-      "Chango"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué nombre tradicional aparece como Kawashkar o Alacalufe?",
-    "o": [
-      "Kawésqar",
-      "Diaguita",
-      "Colla",
-      "Quechua"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo se relaciona especialmente con la zona de Copiapó y el Norte Chico?",
-    "o": [
-      "Diaguita",
-      "Yagán",
-      "Rapa Nui",
-      "Kawésqar"
-    ],
-    "a": 0,
-    "topic": "🌺 Pueblos originarios"
-  },
-  {
-    "q": "¿Qué pueblo se relaciona históricamente con zonas cordilleranas del norte y actividades de pastoreo?",
-    "o": [
-      "Colla",
-      "Chango",
-      "Yagán",
       "Rapa Nui"
     ],
     "a": 0,
     "topic": "🌺 Pueblos originarios"
   },
   {
-    "q": "¿Cuál de estos NO es uno de los 11 pueblos indígenas reconocidos por la Ley 19.253 y sus modificaciones?",
+    "q": "¿Qué pueblo originario se asentó históricamente en sectores de la Patagonia occidental y canales australes?",
     "o": [
-      "Huilliche",
-      "Mapuche",
-      "Selk'nam",
+      "Kawésqar",
+      "Diaguita",
+      "Chango",
+      "Aymara"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo fueguino es conocido también por el nombre Selk’nam?",
+    "o": [
+      "Ona",
+      "Yagán",
+      "Kawésqar",
       "Chango"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario tuvo una tradición ligada a la pesca y recolección marina en el litoral del norte?",
+    "o": [
+      "Chango",
+      "Mapuche",
+      "Rapa Nui",
+      "Aymara"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué lengua es tradicional del pueblo Rapa Nui?",
+    "o": [
+      "Rapa Nui",
+      "Mapudungun",
+      "Aymara",
+      "Kawésqar"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Cómo se llaman las grandes esculturas monumentales de piedra de Rapa Nui?",
+    "o": [
+      "Moái",
+      "Chemamüll",
+      "Kull-kull",
+      "Tupu"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario tiene una presencia histórica especialmente importante en el sur y centro-sur de Chile?",
+    "o": [
+      "Mapuche",
+      "Aymara",
+      "Chango",
+      "Rapa Nui"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué institución fue creada por la Ley Indígena de 1993?",
+    "o": [
+      "CONADI",
+      "CORFO",
+      "INDH",
+      "SERNATUR"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿En qué año se promulgó la Ley 19.253, conocida como Ley Indígena?",
+    "o": [
+      "1993",
+      "1988",
+      "2001",
+      "1973"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué significa la sigla CONADI?",
+    "o": [
+      "Corporación Nacional de Desarrollo Indígena",
+      "Consejo Nacional de Desarrollo Industrial",
+      "Comisión Nacional de Diversidad",
+      "Corporación Nacional de Defensa Indígena"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué ley chilena establece normas sobre protección, fomento y desarrollo de los indígenas?",
+    "o": [
+      "Ley 19.253",
+      "Ley 20.609",
+      "Ley 21.030",
+      "Ley 18.834"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario está asociado históricamente con el extremo sur de Tierra del Fuego?",
+    "o": [
+      "Selk’nam",
+      "Diaguita",
+      "Chango",
+      "Lickanantay"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario es conocido por su relación histórica con los canales de la Patagonia occidental?",
+    "o": [
+      "Kawésqar",
+      "Aymara",
+      "Mapuche",
+      "Diaguita"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario habitó históricamente sectores del Norte Chico, especialmente los valles de Atacama y Coquimbo?",
+    "o": [
+      "Diaguita",
+      "Yagán",
+      "Mapuche",
+      "Rapa Nui"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Qué pueblo originario desarrolló sistemas agrícolas y de pastoreo adaptados al altiplano?",
+    "o": [
+      "Aymara",
+      "Selk’nam",
+      "Chango",
+      "Yagán"
+    ],
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
+  },
+  {
+    "q": "¿Cuál de estos es un pueblo originario reconocido legalmente en Chile?",
+    "o": [
+      "Chango",
+      "Vikingo",
+      "Inca chileno",
+      "Patagón europeo"
     ],
     "a": 0,
     "topic": "🌺 Pueblos originarios"
@@ -2113,24 +2112,23 @@ window.QUESTION_BANK = [
     "topic": "🏛️ Presidentes y política histórica"
   },
   {
-    "q": "¿Quién es el Presidente de Chile para el período 2026-2030?",
+    "q": "¿Qué presidente de Chile gobernó entre 1990 y 1994?",
     "o": [
-      "José Antonio Kast",
-      "Gabriel Boric",
-      "Sebastián Piñera",
-      "Jorge Alessandri"
+      "Patricio Aylwin",
+      "Eduardo Frei Ruiz-Tagle",
+      "Ricardo Lagos",
+      "Augusto Pinochet"
     ],
     "a": 0,
-    "e": "José Antonio Kast ejerce como Presidente de la República para el período constitucional 2026-2030.",
     "topic": "🏛️ Presidentes y política histórica"
   },
   {
-    "q": "¿Qué presidente fue conocido como el 'León de Tarapacá'?",
+    "q": "¿Qué presidente gobernó Chile entre 1927 y 1931 y también ocupó el cargo entre 1952 y 1958?",
     "o": [
-      "Arturo Alessandri Palma",
+      "Carlos Ibáñez del Campo",
+      "Arturo Alessandri",
       "Pedro Aguirre Cerda",
-      "Salvador Allende",
-      "Carlos Ibáñez del Campo"
+      "Jorge Alessandri"
     ],
     "a": 0,
     "topic": "🏛️ Presidentes y política histórica"
@@ -2191,290 +2189,290 @@ window.QUESTION_BANK = [
     "topic": "🏛️ Presidentes y política histórica"
   },
   {
-    "q": "¿Qué tratado de 1881 fijó el principio de la frontera cordillerana entre Chile y Argentina?",
+    "q": "¿Qué batalla de 1839 consolidó la victoria chilena en la guerra contra la Confederación Perú-Boliviana?",
     "o": [
-      "Tratado de Límites de 1881",
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Pacto de Tregua"
+      "Yungay",
+      "Lircay",
+      "Rancagua",
+      "Chacabuco"
     ],
     "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
-    "q": "¿Qué tratado puso fin formalmente a la guerra entre Chile y Perú en 1883?",
+    "q": "¿Qué presidente impulsó la creación de la Universidad de Chile en 1842?",
     "o": [
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Tratado de 1904",
-      "Pacto de Tregua"
+      "Manuel Bulnes",
+      "José Joaquín Prieto",
+      "Manuel Montt",
+      "Ramón Freire"
     ],
     "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
-    "q": "¿Qué acuerdo de 1884 estableció una tregua entre Chile y Bolivia?",
+    "q": "¿Qué institución educativa fue fundada en 1842 y es una de las más antiguas universidades de Chile?",
     "o": [
-      "Pacto de Tregua",
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Tratado de 1881"
+      "Universidad de Chile",
+      "Universidad Católica de Chile",
+      "Universidad de Concepción",
+      "Universidad de Santiago"
     ],
     "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
-    "q": "¿Qué tratado de 1904 estableció la paz definitiva entre Chile y Bolivia?",
+    "q": "¿Qué guerra enfrentó a Chile contra la Confederación Perú-Boliviana entre 1836 y 1839?",
     "o": [
-      "Tratado de Paz, Amistad y Comercio",
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Tratado de 1984"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué tratado de 1929 resolvió la cuestión de Tacna y Arica entre Chile y Perú?",
-    "o": [
-      "Tratado de Lima",
-      "Tratado de Ancón",
-      "Tratado de 1904",
-      "Tratado de 1881"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "Según el Tratado de Lima de 1929, ¿qué ocurrió con Tacna?",
-    "o": [
-      "Volvió a Perú",
-      "Quedó en Chile",
-      "Se convirtió en territorio internacional",
-      "Pasó a Bolivia"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "Según el Tratado de Lima de 1929, ¿qué ocurrió con Arica?",
-    "o": [
-      "Quedó en Chile",
-      "Volvió a Perú",
-      "Pasó a Bolivia",
-      "Se convirtió en territorio internacional"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Con qué país está relacionado el Tratado de Paz y Amistad de 1984?",
-    "o": [
-      "Argentina",
-      "Perú",
-      "Bolivia",
-      "Ecuador"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué conflicto fronterizo buscó resolver el Tratado de Paz y Amistad de 1984?",
-    "o": [
-      "Canal Beagle",
-      "Tacna-Arica",
+      "Guerra contra la Confederación Perú-Boliviana",
       "Guerra del Pacífico",
-      "Puna de Atacama"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué mediación internacional fue clave en el proceso que llevó al acuerdo de 1984 con Argentina?",
-    "o": [
-      "La mediación de Juan Pablo II",
-      "La mediación de la ONU en Nueva York",
-      "La mediación de Brasil",
-      "La mediación de Estados Unidos"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué protocolo complementario acompaña al Tratado de Lima de 1929?",
-    "o": [
-      "Protocolo Complementario de 1929",
-      "Pacto de Tregua de 1884",
-      "Protocolo de 1904",
-      "Acuerdo de Santiago de 1984"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué documento de 1884 dejó pendiente la solución definitiva con Bolivia y antecedió al tratado de 1904?",
-    "o": [
-      "Pacto de Tregua",
-      "Tratado de Lima",
-      "Tratado de Ancón",
-      "Tratado de 1881"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Con qué país se firmó el Tratado de Ancón?",
-    "o": [
-      "Perú",
-      "Bolivia",
-      "Argentina",
-      "Ecuador"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Con qué país se firmó el Tratado de Lima de 1929?",
-    "o": [
-      "Perú",
-      "Bolivia",
-      "Argentina",
-      "Brasil"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Con qué país se firmó el Tratado de Límites de 1881?",
-    "o": [
-      "Argentina",
-      "Perú",
-      "Bolivia",
-      "Brasil"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué tratado es fundamental para entender la relación territorial Chile-Bolivia posterior a la Guerra del Pacífico?",
-    "o": [
-      "Tratado de 1904",
-      "Tratado de Ancón",
-      "Tratado de Lima de 1929",
-      "Tratado de 1984"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué tratado de 1883 se relaciona con Tarapacá?",
-    "o": [
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Pacto de Tregua",
-      "Tratado de 1904"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué tratado consolidó la soberanía chilena sobre los territorios ocupados desde la Guerra del Pacífico frente a Bolivia?",
-    "o": [
-      "Tratado de 1904",
-      "Tratado de Ancón",
-      "Tratado de Lima",
-      "Tratado de 1984"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Cuál de estos tratados NO es consecuencia directa de la Guerra del Pacífico?",
-    "o": [
-      "Tratado de Paz y Amistad de 1984",
-      "Tratado de Ancón",
-      "Pacto de Tregua de 1884",
-      "Tratado de 1904"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Qué país perdió su litoral ante Chile en el proceso que culminó con el tratado de 1904?",
-    "o": [
-      "Bolivia",
-      "Perú",
-      "Argentina",
-      "Ecuador"
-    ],
-    "a": 0,
-    "topic": "⚔️ Guerra del Pacífico y tratados"
-  },
-  {
-    "q": "¿Quién fue el gobernador colonial cuya designación desembocó en la Primera Junta de 1810?",
-    "o": [
-      "Mateo de Toro y Zambrano",
-      "Ambrosio O'Higgins",
-      "José Miguel Carrera",
-      "Bernardo O'Higgins"
+      "Guerra Civil de 1891",
+      "Guerra de Arauco"
     ],
     "a": 0,
     "topic": "🇨🇱 Historia e Independencia"
   },
   {
-    "q": "¿Cómo se apodó al período entre 1814 y 1817?",
+    "q": "¿Qué ciudad fue escenario de la batalla de Yungay de 1839?",
     "o": [
-      "Reconquista",
-      "Patria Nueva",
-      "Patria Vieja",
-      "República Conservadora"
+      "Yungay",
+      "Talca",
+      "Valdivia",
+      "Iquique"
     ],
     "a": 0,
     "topic": "🇨🇱 Historia e Independencia"
   },
   {
-    "q": "¿Cómo se llamó el período iniciado tras Chacabuco y anterior a la consolidación de la independencia?",
+    "q": "¿Qué héroe chileno es recordado por su participación en la batalla de Yungay?",
     "o": [
-      "Patria Nueva",
-      "Reconquista",
-      "Patria Vieja",
-      "Ensayos Constitucionales"
+      "Manuel Bulnes",
+      "Arturo Prat",
+      "Bernardo O’Higgins",
+      "José Miguel Carrera"
     ],
     "a": 0,
     "topic": "🇨🇱 Historia e Independencia"
   },
   {
-    "q": "¿En qué batalla fue derrotado el ejército realista en 1817?",
+    "q": "¿Qué conflicto interno chileno terminó con la derrota de Balmaceda en 1891?",
     "o": [
-      "Chacabuco",
-      "Rancagua",
-      "Maipú",
-      "Cancha Rayada"
+      "Guerra Civil de 1891",
+      "Guerra del Pacífico",
+      "Guerra contra España",
+      "Revolución de 1851"
     ],
     "a": 0,
-    "topic": "🇨🇱 Historia e Independencia"
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
-    "q": "¿Qué batalla de 1818 consolidó militarmente la independencia?",
+    "q": "¿Qué puerto fue bombardeado por la escuadra española en 1866?",
     "o": [
-      "Maipú",
-      "Chacabuco",
-      "Rancagua",
-      "Yungay"
-    ],
-    "a": 0,
-    "topic": "🇨🇱 Historia e Independencia"
-  },
-  {
-    "q": "¿Qué ciudad chilena fue importante en la expansión de la minería de plata del siglo XIX?",
-    "o": [
-      "Chañarcillo/Copiapó",
-      "Puerto Montt",
-      "Castro",
+      "Valparaíso",
+      "Talcahuano",
+      "Arica",
       "Punta Arenas"
     ],
     "a": 0,
     "topic": "🗺️ Geografía y regiones"
+  },
+  {
+    "q": "¿Qué conflicto entre Chile y España incluyó el bombardeo de Valparaíso en 1866?",
+    "o": [
+      "Guerra hispano-sudamericana",
+      "Guerra del Pacífico",
+      "Guerra contra la Confederación",
+      "Guerra Civil de 1891"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Qué isla chilena fue ocupada por colonos y misioneros durante el siglo XIX y es conocida por sus iglesias de madera?",
+    "o": [
+      "Chiloé",
+      "Rapa Nui",
+      "Juan Fernández",
+      "Mocha"
+    ],
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
+  },
+  {
+    "q": "¿Qué acuerdo de 1884 antecedió al tratado definitivo entre Chile y Bolivia de 1904?",
+    "o": [
+      "Pacto de Tregua",
+      "Tratado de Ancón",
+      "Tratado de Lima",
+      "Tratado de 1881"
+    ],
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
+  },
+  {
+    "q": "¿Qué inventor chileno está asociado al desarrollo temprano de la televisión en Chile?",
+    "o": [
+      "Juan Salazar",
+      "Juan Luis Martínez",
+      "Pedro Aguirre Cerda",
+      "Federico Santa María"
+    ],
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
+  },
+  {
+    "q": "¿Cuántas viviendas fueron censadas en Chile durante el Censo 2024?",
+    "o": [
+      "7.642.716",
+      "6.596.527",
+      "8.480.432",
+      "5.642.716"
+    ],
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
+  },
+  {
+    "q": "¿Cuántos hogares fueron censados en Chile durante el Censo 2024?",
+    "o": [
+      "6.596.527",
+      "7.642.716",
+      "5.480.432",
+      "9.513.399"
+    ],
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
+  },
+  {
+    "q": "Según los primeros resultados del Censo 2024, ¿qué porcentaje de la población tenía 14 años o menos?",
+    "o": [
+      "17,7%",
+      "14%",
+      "29,4%",
+      "21,5%"
+    ],
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
+  },
+  {
+    "q": "¿Qué organismo estatal estuvo a cargo de realizar el Censo 2024?",
+    "o": [
+      "Instituto Nacional de Estadísticas (INE)",
+      "Servicio de Registro Civil",
+      "Banco Central",
+      "Ministerio del Interior"
+    ],
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
+  },
+  {
+    "q": "¿Qué instrumento científico del Observatorio ALMA permite estudiar el universo en ondas de radio y milimétricas?",
+    "o": [
+      "Antenas de radio",
+      "Telescopio óptico refractor",
+      "Lidar",
+      "Radar meteorológico"
+    ],
+    "a": 0,
+    "topic": "🔭 Astronomía"
+  },
+  {
+    "q": "¿Qué telescopio espacial lleva el nombre de un antiguo administrador de la NASA y fue lanzado en 2021?",
+    "o": [
+      "James Webb",
+      "Hubble",
+      "Kepler",
+      "Spitzer"
+    ],
+    "a": 0,
+    "topic": "🔭 Astronomía"
+  },
+  {
+    "q": "¿Qué observatorio está ubicado en el cerro Tololo, en la Región de Coquimbo?",
+    "o": [
+      "Cerro Tololo Inter-American Observatory",
+      "ALMA",
+      "Paranal",
+      "Las Campanas"
+    ],
+    "a": 0,
+    "topic": "🔭 Astronomía"
+  },
+  {
+    "q": "¿Qué lugar de Santiago es reconocido por su gran colección de arte chileno y su edificio patrimonial?",
+    "o": [
+      "Museo Nacional de Bellas Artes",
+      "Museo de la Memoria",
+      "Museo Histórico Nacional",
+      "Centro Cultural La Moneda"
+    ],
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
+  },
+  {
+    "q": "¿Qué prócer chileno cruzó los Andes junto al Ejército de los Andes antes de la batalla de Chacabuco?",
+    "o": [
+      "Bernardo O’Higgins",
+      "Diego Portales",
+      "Manuel Montt",
+      "Arturo Prat"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Cómo se conoce al período de la historia de Chile entre la derrota de Rancagua y la victoria de Chacabuco?",
+    "o": [
+      "Reconquista",
+      "Patria Nueva",
+      "República Parlamentaria",
+      "Ensayos constitucionales"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Qué batalla de 1817 permitió la entrada del Ejército de los Andes a Santiago?",
+    "o": [
+      "Chacabuco",
+      "Maipú",
+      "Cancha Rayada",
+      "Rancagua"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Qué batalla de 1818 fue una derrota patriota previa a la victoria definitiva de Maipú?",
+    "o": [
+      "Cancha Rayada",
+      "Chacabuco",
+      "Rancagua",
+      "Lircay"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Quién ejerció como Director Supremo de Chile antes de la renuncia de 1823?",
+    "o": [
+      "Bernardo O’Higgins",
+      "Ramón Freire",
+      "Manuel Blanco Encalada",
+      "José Joaquín Prieto"
+    ],
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
+  },
+  {
+    "q": "¿Qué edificio de Santiago es conocido por su arquitectura de estilo neoclásico y alberga la Biblioteca Nacional?",
+    "o": [
+      "Biblioteca Nacional de Chile",
+      "Palacio Cousiño",
+      "Estación Central",
+      "Museo Precolombino"
+    ],
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué recurso convirtió al norte de Chile en un espacio estratégico antes y durante la Guerra del Pacífico?",
@@ -2510,48 +2508,48 @@ window.QUESTION_BANK = [
     "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
-    "q": "¿Qué ciudad fue históricamente conocida como 'la Perla del Pacífico' en Chile?",
+    "q": "¿Qué cerro del centro de Santiago da nombre a una de las principales estaciones del Metro?",
     "o": [
-      "Valparaíso",
-      "Arica",
-      "Iquique",
-      "La Serena"
+      "Cerro Santa Lucía",
+      "Cerro Blanco",
+      "Cerro San Cristóbal",
+      "Cerro Renca"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
-    "q": "¿Qué estrecho conecta los océanos Atlántico y Pacífico en el extremo austral?",
+    "q": "¿Qué plaza de Santiago está frente a la Catedral Metropolitana y es uno de los principales espacios históricos de la ciudad?",
     "o": [
-      "Estrecho de Magallanes",
-      "Canal de Chacao",
-      "Canal Beagle",
-      "Estrecho de Drake"
+      "Plaza de Armas",
+      "Plaza Italia",
+      "Plaza Baquedano",
+      "Plaza Brasil"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
-    "q": "¿Qué paso marítimo queda al sur de Tierra del Fuego?",
+    "q": "¿Qué museo de Santiago se especializa en arte precolombino de América?",
     "o": [
-      "Paso Drake",
-      "Canal de Chacao",
-      "Estrecho de Magallanes",
-      "Canal de Beagle"
+      "Museo Chileno de Arte Precolombino",
+      "Museo de Bellas Artes",
+      "Museo Histórico Nacional",
+      "Museo de la Memoria"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
-    "q": "¿Qué isla pertenece administrativamente a la Región de Valparaíso?",
+    "q": "¿Qué barrio de Santiago es conocido por su vida cultural, cafés, librerías y cercanía al Cerro Santa Lucía?",
     "o": [
-      "Rapa Nui",
-      "Chiloé",
-      "Tierra del Fuego",
-      "Mocha"
+      "Lastarria",
+      "Bellavista",
+      "Yungay",
+      "Meiggs"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿En qué región está el archipiélago de Chiloé?",
@@ -2708,15 +2706,15 @@ window.QUESTION_BANK = [
     "topic": "🗺️ Geografía y regiones"
   },
   {
-    "q": "¿Qué río atraviesa Santiago?",
+    "q": "¿Qué estación de tren de Santiago es un importante ejemplo de arquitectura ferroviaria histórica?",
     "o": [
-      "Mapocho",
-      "Maipo",
-      "Maule",
-      "Bío Bío"
+      "Estación Central",
+      "Estación Mapocho",
+      "Estación Baquedano",
+      "Estación Ñuñoa"
     ],
     "a": 0,
-    "topic": "🗺️ Geografía y regiones"
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué río es uno de los grandes cursos de agua del centro de Chile y da nombre a la Región del Maule?",
@@ -3071,34 +3069,34 @@ window.QUESTION_BANK = [
     "topic": "⚽ Deportes"
   },
   {
-    "q": "¿Qué observatorio astronómico internacional se ubica en la Región de Antofagasta?",
+    "q": "¿Qué telescopio óptico europeo opera en el cerro Paranal?",
     "o": [
-      "ALMA",
-      "Paranal",
+      "VLT",
+      "FAST",
       "Arecibo",
-      "Mauna Kea"
+      "Keck"
     ],
     "a": 0,
     "topic": "🔭 Astronomía"
   },
   {
-    "q": "¿En qué región se ubica el observatorio Paranal?",
+    "q": "¿En qué región se encuentra el Observatorio Las Campanas?",
     "o": [
-      "Antofagasta",
-      "Coquimbo",
-      "Atacama",
-      "Valparaíso"
+      "Región de Coquimbo",
+      "Región de Atacama",
+      "Región de Antofagasta",
+      "Región de O’Higgins"
     ],
     "a": 0,
     "topic": "🔭 Astronomía"
   },
   {
-    "q": "¿Qué característica del desierto de Atacama favorece los observatorios astronómicos?",
+    "q": "¿Qué factor geográfico hace especialmente favorable el norte de Chile para la astronomía óptica?",
     "o": [
-      "Gran sequedad y cielos despejados",
+      "Gran altitud y cielos secos y despejados",
       "Alta humedad",
-      "Lluvias diarias",
-      "Nubes permanentes"
+      "Abundante nubosidad",
+      "Cercanía al ecuador magnético"
     ],
     "a": 0,
     "topic": "🔭 Astronomía"
