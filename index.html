@@ -1,18 +1,14 @@
-```html
 <!doctype html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8">
-
   <meta
     name="viewport"
-    content="width=device-width, initial-scale=1"
+    content="width=device-width,initial-scale=1"
   >
-
   <meta
     name="theme-color"
-    content="#102a43"
+    content="#fff8ed"
   >
 
   <title>Trivia Dieciochera 2026 — Guía completa</title>
@@ -45,7 +41,7 @@
     header {
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 30;
       background: #102a43;
       color: #fff;
       box-shadow: 0 2px 12px #0002;
@@ -95,7 +91,7 @@
 
     .quiz-link {
       background: #d62828;
-      color: white;
+      color: #fff;
       text-decoration: none;
       white-space: nowrap;
     }
@@ -107,11 +103,12 @@
     }
 
     .hero {
-      background: linear-gradient(
-        120deg,
-        #102a43,
-        #1d5fa7
-      );
+      background:
+        linear-gradient(
+          120deg,
+          #102a43,
+          #1d5fa7
+        );
       color: #fff;
       border-radius: 24px;
       padding: 42px;
@@ -151,7 +148,10 @@
     .memory {
       display: grid;
       grid-template-columns:
-        repeat(auto-fit, minmax(210px, 1fr));
+        repeat(
+          auto-fit,
+          minmax(210px, 1fr)
+        );
       gap: 12px;
     }
 
@@ -197,12 +197,6 @@
 
     .side a:hover {
       background: #edf4fa;
-    }
-
-    .side hr {
-      border: 0;
-      border-top: 1px solid #dce3e8;
-      margin: 10px 0;
     }
 
     section {
@@ -261,61 +255,33 @@
       font-weight: 700;
     }
 
-    .study-quiz {
-      background: #f7fbff;
-      border: 2px solid #d8e6f0;
-    }
-
-    .study-quiz h2 {
-      border-bottom-color: #1d5fa7;
-    }
-
-    .quiz-card {
+    .controls {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
+      gap: 8px;
       flex-wrap: wrap;
-      padding: 18px;
-      background: white;
-      border: 1px solid #d7e0e7;
-      border-radius: 14px;
     }
 
-    .quiz-card-text {
-      flex: 1;
-      min-width: 240px;
+    .controls button,
+    .reset {
+      border: 0;
+      border-radius: 9px;
+      padding: 10px 14px;
+      background: #102a43;
+      color: #fff;
+      font-weight: 800;
+      cursor: pointer;
     }
 
-    .quiz-card-text strong {
-      display: block;
-      color: #102a43;
-      font-size: 18px;
-      margin-bottom: 4px;
-    }
-
-    .quiz-card-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 13px 18px;
-      border-radius: 11px;
+    .reset {
       background: #d62828;
-      color: white;
-      text-decoration: none;
-      font-weight: 900;
-      white-space: nowrap;
     }
 
-    footer {
-      max-width: 1450px;
-      margin: auto;
-      padding: 20px;
+    .small {
       color: #5b6770;
+      font-size: 13px;
     }
 
     @media (max-width: 900px) {
-
       .layout {
         grid-template-columns: 1fr;
       }
@@ -338,64 +304,17 @@
       .brand {
         flex: 1;
       }
-    }
-
-    @media (max-width: 600px) {
-
-      .wrap {
-        padding: 12px;
-      }
-
-      .hero {
-        padding: 25px 18px;
-        border-radius: 18px;
-      }
-
-      .hero h1 {
-        font-size: 34px;
-      }
-
-      .hero p {
-        font-size: 16px;
-      }
-
-      section {
-        padding: 20px 16px;
-        border-radius: 15px;
-      }
-
-      section h2 {
-        font-size: 24px;
-      }
-
-      .nav {
-        padding: 9px 12px;
-      }
-
-      .brand {
-        font-size: 13px;
-      }
-
-      .nav button {
-        display: none;
-      }
 
       .quiz-link {
-        padding: 8px 10px;
         font-size: 12px;
-      }
-
-      table {
-        font-size: 13px;
+        padding: 8px 10px;
       }
     }
 
     @media print {
-
       header,
       .side,
-      .hero-actions,
-      .study-quiz {
+      .hero-actions {
         display: none !important;
       }
 
@@ -412,13 +331,200 @@
         break-inside: avoid;
       }
     }
+
+    /* Navegación móvil */
+    .mobile-menu-btn {
+      display: none;
+    }
+
+    .mobile-overlay {
+      display: none;
+    }
+
+    .mobile-menu-head {
+      display: none;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        padding-bottom: 72px;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+      }
+
+      header .nav {
+        padding: 10px 14px;
+        gap: 8px;
+      }
+
+      header .brand {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      header #search {
+        min-width: 0;
+        width: 100%;
+        font-size: 14px;
+      }
+
+      header .nav > button {
+        display: none;
+      }
+
+      .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        position: fixed;
+        right: 14px;
+        bottom: 14px;
+        z-index: 1000;
+        border: 0;
+        border-radius: 999px;
+        padding: 12px 16px;
+        background: #111;
+        color: #fff;
+        font-weight: 800;
+        font-size: 13px;
+        box-shadow: 0 8px 24px rgba(0,0,0,.25);
+        cursor: pointer;
+      }
+
+      .mobile-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.42);
+        z-index: 998;
+      }
+
+      .mobile-overlay.open {
+        display: block;
+      }
+
+      .side {
+        position: fixed !important;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: min(86vw,340px);
+        height: 100vh !important;
+        margin: 0 !important;
+        border-radius: 0 18px 18px 0;
+        z-index: 999;
+        overflow-y: auto;
+        transform: translateX(-105%);
+        transition: transform .22s ease;
+        padding: 18px 14px 28px !important;
+        background: #fff;
+        box-shadow: 12px 0 35px rgba(0,0,0,.2);
+      }
+
+      .side.open {
+        transform: translateX(0);
+      }
+
+      .mobile-menu-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        font-size: 17px;
+      }
+
+      .mobile-menu-head button {
+        border: 0;
+        background: #f0f0f0;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        font-size: 25px;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .side a {
+        display: block;
+        padding: 11px 10px;
+        border-radius: 10px;
+        margin: 2px 0;
+        font-size: 14px;
+      }
+
+      .side a:hover,
+      .side a:active {
+        background: #f1f1f1;
+      }
+
+      .side hr {
+        margin: 10px 0;
+      }
+
+      .layout {
+        display: block;
+      }
+
+      main {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .wrap {
+        padding: 0 12px;
+      }
+
+      .hero {
+        padding: 24px 16px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr 1fr !important;
+      }
+
+      section {
+        scroll-margin-top: 72px;
+      }
+
+      section h2 {
+        font-size: 23px;
+      }
+
+      table {
+        font-size: 13px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .cards {
+        grid-template-columns: 1fr !important;
+      }
+
+      header .brand {
+        display: none;
+      }
+
+      header .nav {
+        grid-template-columns: 1fr !important;
+      }
+
+      .hero h1 {
+        font-size: 27px;
+      }
+    }
   </style>
 </head>
 
 <body>
 
   <header>
-
     <div class="nav">
 
       <div class="brand">
@@ -447,13 +553,9 @@
       </button>
 
     </div>
-
   </header>
 
-
   <div class="wrap">
-
-    <!-- PORTADA -->
 
     <div class="hero">
 
@@ -463,23 +565,20 @@
 
       <p>
         Guía completa de estudio para la Trivia Dieciochera.
-        Aquí encontrarás todos los contenidos trabajados:
-        historia, símbolos, cueca, gastronomía, geografía,
-        Guerra del Pacífico, literatura, música, patrimonio,
-        cultura pop, virales, modismos, Santiago, vino,
-        astronomía, terremotos, deportes y actualidad 2026.
+        Todo el contenido trabajado, ordenado para estudiar rápido
+        y practicar después en un quiz separado.
       </p>
 
       <div class="cards">
 
         <div>
           <b>📚 Contenido</b><br>
-          24 temas de estudio.
+          27 temas de estudio.
         </div>
 
         <div>
           <b>🎯 Práctica</b><br>
-          Quiz interactivo separado.
+          292 preguntas en el quiz interactivo.
         </div>
 
         <div>
@@ -507,111 +606,49 @@
 
     </div>
 
-
     <div class="layout">
-
-
-      <!-- MENÚ -->
 
       <aside class="side">
 
+        <div class="mobile-menu-head">
+          <strong>🇨🇱 MENÚ</strong>
+          <button
+            id="closeMobileMenu"
+            aria-label="Cerrar menú"
+          >
+            ×
+          </button>
+        </div>
+
         <b>ÍNDICE</b>
 
-        <a href="#s0">
-          🇨🇱 Portada
-        </a>
-
-        <a href="#s1">
-          🎯 Estrategia de estudio
-        </a>
-
-        <a href="#s2">
-          📜 Historia e Independencia
-        </a>
-
-        <a href="#s3">
-          🚩 Símbolos nacionales
-        </a>
-
-        <a href="#s4">
-          💃 Cueca y Fiestas Patrias
-        </a>
-
-        <a href="#s5">
-          🍴 Gastronomía y bebidas
-        </a>
-
-        <a href="#s6">
-          🪁 Juegos, huasos y rodeo
-        </a>
-
-        <a href="#s7">
-          🗺️ Geografía y regiones
-        </a>
-
-        <a href="#s8">
-          🌺 Rapa Nui, Chiloé y pueblos originarios
-        </a>
-
-        <a href="#s9">
-          🏛️ Patrimonio
-        </a>
-
-        <a href="#s10">
-          ⚔️ Guerra del Pacífico
-        </a>
-
-        <a href="#s11">
-          📚 Literatura
-        </a>
-
-        <a href="#s12">
-          🎵 Música
-        </a>
-
-        <a href="#s13">
-          📺 TV y cultura pop
-        </a>
-
-        <a href="#s14">
-          😂 Virales y memes chilenos
-        </a>
-
-        <a href="#s15">
-          🗣️ Modismos
-        </a>
-
-        <a href="#s16">
-          🏙️ Santiago
-        </a>
-
-        <a href="#s17">
-          🍷 Vino
-        </a>
-
-        <a href="#s18">
-          🔭 Astronomía
-        </a>
-
-        <a href="#s19">
-          🌎 Terremotos
-        </a>
-
-        <a href="#s20">
-          ⚽ Deportes
-        </a>
-
-        <a href="#s21">
-          🦌 Animales
-        </a>
-
-        <a href="#s22">
-          📅 Actualidad 2026
-        </a>
-
-        <a href="#s23">
-          🧠 Chuleta final
-        </a>
+        <a href="#s0">🇨🇱 Portada</a>
+        <a href="#s1">🎯 Estrategia de estudio</a>
+        <a href="#s2">📜 Historia e Independencia</a>
+        <a href="#s3">🚩 Símbolos nacionales</a>
+        <a href="#s4">💃 Cueca y Fiestas Patrias</a>
+        <a href="#s5">🍴 Gastronomía y bebidas</a>
+        <a href="#s6">🪁 Juegos, huasos y rodeo</a>
+        <a href="#s7">🗺️ Geografía y regiones</a>
+        <a href="#s8">🌺 Rapa Nui, Chiloé y pueblos originarios</a>
+        <a href="#s9">🏛️ Patrimonio</a>
+        <a href="#s10">⚔️ Guerra del Pacífico</a>
+        <a href="#s11">📚 Literatura</a>
+        <a href="#s12">🎵 Música</a>
+        <a href="#s13">📺 TV y cultura pop</a>
+        <a href="#s14">😂 Virales y memes chilenos</a>
+        <a href="#s15">🗣️ Modismos</a>
+        <a href="#s16">🏙️ Santiago</a>
+        <a href="#s17">🍷 Vino</a>
+        <a href="#s18">🔭 Astronomía</a>
+        <a href="#s19">🌎 Terremotos</a>
+        <a href="#s20">⚽ Deportes</a>
+        <a href="#s21">🦌 Animales</a>
+        <a href="#s22">📅 Actualidad 2026</a>
+        <a href="#s24">🪶 Pueblos originarios</a>
+        <a href="#s25">🏛️ Presidentes</a>
+        <a href="#s26">📜 Tratados y fronteras</a>
+        <a href="#s23">🧠 Chuleta final</a>
 
         <hr>
 
@@ -621,1279 +658,4 @@
 
       </aside>
 
-
       <main>
-
-
-        <!-- 0 -->
-
-        <section id="s0">
-
-          <h2>
-            🇨🇱 Portada
-          </h2>
-
-          <p class="lead">
-            Guía interactiva completa para la Trivia Dieciochera 2026.
-            Reúne el material de estudio trabajado: historia, símbolos,
-            cueca, gastronomía, geografía, Guerra del Pacífico,
-            literatura, música, patrimonio, cultura pop, virales,
-            modismos, Santiago, vino, astronomía, terremotos,
-            deportes y actualidad 2026.
-          </p>
-
-          <div class="cards">
-
-            <div>
-              <b>📚 Estudio</b><br>
-              Todo el contenido en una sola página.
-            </div>
-
-            <div>
-              <b>🎯 Práctica</b><br>
-              Quiz de alternativas con corrección inmediata.
-            </div>
-
-            <div>
-              <b>🔎 Búsqueda</b><br>
-              Busca cualquier dato dentro de la guía.
-            </div>
-
-            <div>
-              <b>🇨🇱 Evento</b><br>
-              14 de septiembre de 2026 · 19:30.
-            </div>
-
-          </div>
-
-        </section>
-
-
-        <!-- 1 -->
-
-        <section id="s1">
-
-          <h2>
-            🎯 Estrategia de estudio
-          </h2>
-
-          <ol>
-
-            <li>
-              Identifica la categoría:
-              historia, comida, música, geografía,
-              deporte o cultura pop.
-            </li>
-
-            <li>
-              Busca el par:
-              nombre + lugar,
-              fecha + evento,
-              canción + artista.
-            </li>
-
-            <li>
-              Usa las fechas:
-              1810/1818 = Independencia;
-              1879 = Guerra del Pacífico;
-              2010 = 27F.
-            </li>
-
-            <li>
-              Memoriza cadenas:
-              <b>Prat → Esmeralda → Iquique</b>;
-              <b>Mistral → Lucila Godoy → Nobel 1945</b>.
-            </li>
-
-            <li>
-              No sobrepienses las preguntas
-              de cultura popular.
-            </li>
-
-          </ol>
-
-          <div class="callout">
-
-            <b>Chuleta:</b>
-
-            18/09/1810 Primera Junta ·
-            12/02/1818 Independencia ·
-            05/04/1818 Maipú ·
-            21/05/1879 Iquique ·
-            08/10/1879 Angamos ·
-            07/06/1880 Arica.
-
-          </div>
-
-        </section>
-
-
-        <!-- 2 -->
-
-        <section id="s2">
-
-          <h2>
-            📜 Historia e Independencia
-          </h2>
-
-          <h3>
-            18 de septiembre de 1810
-          </h3>
-
-          <p>
-            Conmemora la
-            <b>Primera Junta Nacional de Gobierno</b>,
-            no la declaración formal de independencia.
-            La independencia fue proclamada/jurada el
-            <b>12 de febrero de 1818</b>.
-            Maipú, el 5 de abril de 1818,
-            fue decisiva militarmente.
-          </p>
-
-          <h3>
-            Línea de tiempo
-          </h3>
-
-          <table>
-
-            <tr>
-              <th>Año</th>
-              <th>Clave</th>
-            </tr>
-
-            <tr>
-              <td>1808</td>
-              <td>
-                Crisis de la monarquía española.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1810</td>
-              <td>
-                Primera Junta.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1812</td>
-              <td>
-                Aurora de Chile / Camilo Henríquez.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1814</td>
-              <td>
-                Reconquista.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1817</td>
-              <td>
-                Chacabuco.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1818</td>
-              <td>
-                Independencia y Maipú.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1823</td>
-              <td>
-                Abdicación de O'Higgins.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1826</td>
-              <td>
-                Tratado de Tantauco /
-                incorporación de Chiloé.
-              </td>
-            </tr>
-
-          </table>
-
-          <p>
-            <b>O'Higgins:</b>
-            nació en Chillán Viejo en 1778,
-            hijo de Ambrosio O'Higgins,
-            colaboró con San Martín,
-            fue Director Supremo y abdicó en 1823.
-
-            <b>Carrera</b>,
-            <b>Manuel Rodríguez</b>,
-            <b>San Martín</b> y
-            <b>Camilo Henríquez</b>
-            son otros nombres esenciales.
-          </p>
-
-        </section>
-
-
-        <!-- 3 -->
-
-        <section id="s3">
-
-          <h2>
-            🚩 Símbolos nacionales
-          </h2>
-
-          <p>
-            <b>Bandera:</b>
-            azul, blanco y rojo, con estrella blanca
-            en el cantón azul.
-            No confundir con las banderas
-            de la Patria Vieja y Transición.
-          </p>
-
-          <p>
-            <b>Escudo:</b>
-            huemul + cóndor;
-            lema
-            <b>“Por la razón o la fuerza”</b>;
-            escudo actual adoptado en 1834.
-          </p>
-
-          <p>
-            <b>Himno:</b>
-            música atribuida a
-            <b>Ramón Carnicer</b>;
-            letra vigente de
-            <b>Eusebio Lillo</b>;
-            texto original asociado a
-            <b>Bernardo de Vera y Pintado</b>.
-          </p>
-
-        </section>
-
-
-        <!-- 4 -->
-
-        <section id="s4">
-
-          <h2>
-            💃 Cueca y Fiestas Patrias
-          </h2>
-
-          <p>
-            La <b>cueca</b> es el baile nacional de Chile.
-            Fue reconocida oficialmente como tal por
-            Decreto N.º 23, publicado el
-            18 de septiembre de 1979.
-            Se relaciona históricamente con la zamacueca.
-          </p>
-
-          <p>
-            Elementos:
-            pareja frente a frente,
-            pañuelo, vueltas,
-            desplazamientos circulares,
-            zapateo y escobillado.
-            Variantes:
-            central, nortina, chilota,
-            brava/chora y urbanas.
-          </p>
-
-          <p>
-            Cuecas que pueden aparecer:
-            <b>La Consentida,
-            El Guatón Loyola,
-            La Rosa con el Clavel</b>.
-          </p>
-
-          <p>
-            Las
-            <b>fondas, ramadas y chinganas</b>
-            reúnen música, baile, comida y juegos.
-            La cumbia también es habitual
-            durante las celebraciones.
-          </p>
-
-        </section>
-
-
-        <!-- 5 -->
-
-        <section id="s5">
-
-          <h2>
-            🍴 Gastronomía y bebidas
-          </h2>
-
-          <div class="cards">
-
-            <div>
-              <b>Empanada de pino</b><br>
-              Masa + pino; carne, cebolla y condimentos;
-              huevo y aceituna según receta.
-            </div>
-
-            <div>
-              <b>Anticucho</b><br>
-              Trozo de carne y otros ingredientes
-              ensartados y asados.
-            </div>
-
-            <div>
-              <b>Choripán</b><br>
-              Chorizo en pan,
-              frecuentemente con pebre.
-            </div>
-
-            <div>
-              <b>Pebre</b><br>
-              Preparación fresca con
-              tomate/cebolla/cilantro/ají
-              según versión.
-            </div>
-
-            <div>
-              <b>Pastel de choclo</b><br>
-              Choclo molido sobre relleno
-              que suele incluir pino.
-            </div>
-
-            <div>
-              <b>Humitas</b><br>
-              Masa de choclo cocida en hojas.
-            </div>
-
-            <div>
-              <b>Cazuela</b><br>
-              Caldo con carne y verduras.
-            </div>
-
-            <div>
-              <b>Caldillo de congrio</b><br>
-              Preparación de pescado
-              asociada a Neruda.
-            </div>
-
-            <div>
-              <b>Curanto</b><br>
-              Preparación tradicional de Chiloé
-              con piedras calientes y cocción en tierra.
-            </div>
-
-            <div>
-              <b>Milcao</b><br>
-              Preparación chilota basada en papa.
-            </div>
-
-          </div>
-
-          <p>
-            <b>
-              Terremoto = pipeño + helado de piña.
-            </b>
-
-            <b>Chicha</b> =
-            bebida fermentada tradicional.
-
-            <b>Mote con huesillos</b> =
-            trigo mote + huesillos +
-            almíbar/agua azucarada.
-          </p>
-
-        </section>
-
-
-        <!-- 6 -->
-
-        <section id="s6">
-
-          <h2>
-            🪁 Juegos, huasos y rodeo
-          </h2>
-
-          <p>
-            <b>Volantín:</b>
-            cometa tradicional muy asociada a septiembre.
-
-            <b>Trompo:</b>
-            gira con cuerda.
-
-            <b>Emboque:</b>
-            juego de precisión.
-
-            <b>Rayuela/tejo:</b>
-            lanzamiento tradicional.
-          </p>
-
-          <p>
-            <b>Huaso:</b>
-            figura cultural rural,
-            especialmente de la zona central;
-            caballo, manta, chupalla,
-            botas, espuelas.
-          </p>
-
-          <p>
-            <b>Rodeo chileno:</b>
-            pareja de jinetes intenta detener
-            un novillo en una
-            <b>atajada</b>
-            dentro de una
-            <b>medialuna</b>.
-          </p>
-
-        </section>
-
-
-        <!-- 7 -->
-
-        <section id="s7">
-
-          <h2>
-            🗺️ Geografía y regiones
-          </h2>
-
-          <p>
-            Chile limita al oeste con el
-            <b>Pacífico</b>
-            y al este con los Andes.
-
-            Norte Grande:
-            Atacama, altiplano, minería.
-
-            Norte Chico:
-            valles transversales.
-
-            Zona Central:
-            Santiago, Valparaíso,
-            agricultura y gran concentración
-            de población.
-
-            Zona Sur:
-            lluvias, bosques, lagos y volcanes.
-
-            Austral:
-            Patagonia, fiordos, canales y glaciares.
-          </p>
-
-          <p>
-            <b>16 regiones:</b>
-
-            Arica y Parinacota,
-            Tarapacá,
-            Antofagasta,
-            Atacama,
-            Coquimbo,
-            Valparaíso,
-            Metropolitana,
-            O'Higgins,
-            Maule,
-            Ñuble,
-            Biobío,
-            La Araucanía,
-            Los Ríos,
-            Los Lagos,
-            Aysén,
-            Magallanes y de la Antártica Chilena.
-          </p>
-
-          <p>
-            <b>Asociaciones:</b>
-
-            Chiloé → Los Lagos;
-
-            Rapa Nui → Valparaíso;
-
-            Mapocho → Santiago;
-
-            Loa → norte;
-
-            Bío Bío → centro-sur;
-
-            Maipo → RM.
-          </p>
-
-          <p>
-            Censo 2024:
-            <b>18.480.432 personas censadas</b>;
-            RM cerca del 40%.
-          </p>
-
-        </section>
-
-
-        <!-- 8 -->
-
-        <section id="s8">
-
-          <h2>
-            🌺 Rapa Nui, Chiloé y pueblos originarios
-          </h2>
-
-          <p>
-            <b>Rapa Nui:</b>
-            moái, cultura polinésica,
-            Hanga Roa,
-            Región de Valparaíso.
-          </p>
-
-          <p>
-            <b>Chiloé:</b>
-            archipiélago, Castro,
-            palafitos, mitología,
-            curanto, milcao
-            e iglesias de madera.
-          </p>
-
-          <p>
-            <b>Pueblos:</b>
-
-            Aymara → altiplano norte;
-
-            Lickanantay/Atacameño → Atacama interior;
-
-            Diaguita → Norte Chico;
-
-            Mapuche → centro-sur;
-
-            Rapa Nui → isla;
-
-            Kawésqar/Yagán → extremo austral.
-
-            También Quechua, Colla y Chango.
-          </p>
-
-        </section>
-
-
-        <!-- 9 -->
-
-        <section id="s9">
-
-          <h2>
-            🏛️ Patrimonio
-          </h2>
-
-          <p>
-            Sitios UNESCO que conviene reconocer:
-
-            <b>
-              Parque Nacional Rapa Nui,
-              Iglesias de Chiloé,
-              Valparaíso,
-              Humberstone y Santa Laura,
-              Sewell,
-              cultura Chinchorro
-              y Qhapaq Ñan
-            </b>.
-          </p>
-
-          <p>
-            <b>Sewell:</b>
-            campamento minero asociado a El Teniente.
-
-            <b>Iglesias de Chiloé:</b>
-            arquitectura de madera con fusión
-            de tradiciones europeas e indígenas.
-          </p>
-
-        </section>
-
-
-        <!-- 10 -->
-
-        <section id="s10">
-
-          <h2>
-            ⚔️ Guerra del Pacífico
-          </h2>
-
-          <p>
-            Conflicto de
-            <b>1879–1884</b>
-            entre Chile y la alianza
-            de Perú y Bolivia.
-
-            Antecedentes:
-            disputas territoriales y económicas
-            ligadas al desierto y salitre.
-          </p>
-
-          <table>
-
-            <tr>
-              <th>Fecha</th>
-              <th>Asociación</th>
-            </tr>
-
-            <tr>
-              <td>21/05/1879</td>
-              <td>
-                Iquique + Punta Gruesa.
-              </td>
-            </tr>
-
-            <tr>
-              <td>08/10/1879</td>
-              <td>
-                Angamos:
-                captura del Huáscar;
-                muere Miguel Grau.
-              </td>
-            </tr>
-
-            <tr>
-              <td>07/06/1880</td>
-              <td>
-                Toma del Morro de Arica.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1881</td>
-              <td>
-                Chorrillos,
-                Miraflores
-                y ocupación de Lima.
-              </td>
-            </tr>
-
-            <tr>
-              <td>1884</td>
-              <td>
-                Cierre del conflicto.
-              </td>
-            </tr>
-
-          </table>
-
-          <p>
-            <b>Iquique:</b>
-            Arturo Prat →
-            Esmeralda →
-            Huáscar →
-            Miguel Grau.
-
-            <b>Punta Gruesa:</b>
-            Carlos Condell →
-            Covadonga →
-            Independencia.
-          </p>
-
-        </section>
-
-
-        <!-- 11 -->
-
-        <section id="s11">
-
-          <h2>
-            📚 Literatura
-          </h2>
-
-          <p>
-            <b>Gabriela Mistral</b>
-            = Lucila Godoy Alcayaga,
-            Nobel 1945.
-
-            <b>Pablo Neruda</b>
-            = Nobel 1971.
-
-            Otros nombres:
-            Isabel Allende,
-            Vicente Huidobro
-            (creacionismo),
-            Nicanor Parra
-            (antipoesía),
-            Roberto Bolaño.
-          </p>
-
-        </section>
-
-
-        <!-- 12 -->
-
-        <section id="s12">
-
-          <h2>
-            🎵 Música
-          </h2>
-
-          <p>
-            <b>Violeta Parra</b>
-            → “Gracias a la vida”.
-
-            <b>Víctor Jara</b>
-            → Nueva Canción Chilena.
-
-            <b>Margot Loyola</b>
-            → folclor.
-
-            <b>Quilapayún / Inti-Illimani</b>
-            → Nueva Canción.
-
-            <b>Los Jaivas</b>
-            → rock + raíces latinoamericanas.
-
-            <b>Los Prisioneros</b>
-            → rock y crítica social.
-
-            <b>Los Tres</b>
-            → rock + cueca.
-
-            También La Ley y Mon Laferte.
-          </p>
-
-        </section>
-
-
-        <!-- 13 -->
-
-        <section id="s13">
-
-          <h2>
-            📺 TV y cultura pop
-          </h2>
-
-          <p>
-            <b>Los Venegas</b>
-            → sitcom.
-
-            <b>Mekano</b>
-            → cultura juvenil 2000s.
-
-            <b>Morandé con Compañía</b>
-            → humor popular.
-
-            <b>Felipe Avello</b>
-            → humor absurdo/improvisación.
-
-            Reality shows,
-            YouTube,
-            TikTok y memes
-            son parte de la memoria cultural contemporánea.
-          </p>
-
-        </section>
-
-
-        <!-- 14 -->
-
-        <section id="s14">
-
-          <h2>
-            😂 Virales y memes chilenos
-          </h2>
-
-          <ul>
-
-            <li>
-              <b>El Zafrada:</b>
-              Víctor Díaz · Iloca ·
-              27F 2010 · “frazada”.
-            </li>
-
-            <li>
-              <b>Chimuelo:</b>
-              Renato · catita · perro ·
-              funeral · 2019.
-            </li>
-
-            <li>
-              <b>El Tarro:</b>
-              Miguel Eduardo González ·
-              Talca · bicicleta ·
-              caída · 2014.
-            </li>
-
-            <li>
-              <b>Instinto de madre leona:</b>
-              Marcela Villarroel · perro · niño.
-            </li>
-
-            <li>
-              <b>Las Calilas y las Mojo Jojo:</b>
-              María Elena Garay · San Felipe ·
-              viral 2014; contexto real relacionado
-              con el asesinato de su marido.
-            </li>
-
-            <li>
-              <b>Adiós tía Paty, adiós tía Lela:</b>
-              Jacqueline Carriel.
-            </li>
-
-            <li>
-              <b>Me pasé po:</b>
-              micro 712 / Transantiago · TVN.
-            </li>
-
-            <li>
-              <b>Un manjars:</b>
-              pronunciación memorable de “manjar”.
-            </li>
-
-            <li>
-              <b>Sácala de ahí que se está quemando</b>,
-              <b>la vieja roba choclo</b>,
-              <b>Mira pa delante</b>,
-              <b>Tuvo weno el cumpleaño</b>,
-              <b>Engañao pa Chillán</b>,
-              <b>El chuña</b>,
-              <b>Papá bájame</b>,
-              <b>Niño Poeta</b>
-              y
-              <b>Nancy sé digna</b>.
-            </li>
-
-          </ul>
-
-          <p>
-            <b>
-              “No estoy ni ahí”
-            </b>
-            →
-            asociación cultural con
-            Marcelo “Chino” Ríos;
-            el origen exacto de la frase
-            se ha discutido.
-          </p>
-
-        </section>
-
-
-        <!-- 15 -->
-
-        <section id="s15">
-
-          <h2>
-            🗣️ Modismos
-          </h2>
-
-          <p>
-            <b>Po</b>
-            → partícula característica.
-
-            <b>Al tiro</b>
-            → inmediatamente.
-
-            <b>Filo</b>
-            → no importa.
-
-            <b>Pololo/a</b>
-            → pareja.
-
-            <b>Guagua</b>
-            → bebé.
-
-            <b>Copete</b>
-            → alcohol.
-
-            <b>Cachái</b>
-            → ¿entiendes?
-
-            <b>Estar pato</b>
-            → no tener dinero.
-
-            <b>Cuático</b>
-            → intenso/impresionante.
-
-            <b>Fome</b>
-            → aburrido.
-          </p>
-
-        </section>
-
-
-        <!-- 16 -->
-
-        <section id="s16">
-
-          <h2>
-            🏙️ Santiago
-          </h2>
-
-          <p>
-            Santiago es la capital
-            y está en la Región Metropolitana.
-
-            El <b>Mapocho</b>
-            atraviesa la ciudad.
-
-            Lugares:
-            <b>
-              La Moneda,
-              Plaza de Armas,
-              Cerro San Cristóbal,
-              Cerro Santa Lucía,
-              Mercado Central,
-              Parque O'Higgins,
-              Bellavista
-            </b>.
-
-            Transporte:
-            Metro y Red Movilidad.
-          </p>
-
-        </section>
-
-
-        <!-- 17 -->
-
-        <section id="s17">
-
-          <h2>
-            🍷 Vino
-          </h2>
-
-          <p>
-            Valles:
-            <b>
-              Maipo,
-              Colchagua,
-              Curicó,
-              Casablanca,
-              Aconcagua
-            </b>.
-
-            Cepas:
-            <b>
-              Cabernet Sauvignon,
-              Carmenère,
-              Sauvignon Blanc,
-              Chardonnay
-            </b>.
-
-            Carmenère está particularmente
-            asociada a Chile.
-          </p>
-
-        </section>
-
-
-        <!-- 18 -->
-
-        <section id="s18">
-
-          <h2>
-            🔭 Astronomía
-          </h2>
-
-          <p>
-            El norte, especialmente Atacama,
-            tiene condiciones excepcionales
-            por sequedad, altura,
-            noches despejadas
-            y baja contaminación lumínica.
-
-            Asociaciones:
-            <b>
-              Atacama → ALMA →
-              Paranal → La Silla →
-              observatorios
-            </b>.
-          </p>
-
-        </section>
-
-
-        <!-- 19 -->
-
-        <section id="s19">
-
-          <h2>
-            🌎 Terremotos
-          </h2>
-
-          <p>
-            La placa de Nazca subduce
-            bajo la Sudamericana.
-
-            <b>Valdivia 1960:</b>
-            Mw 9,5,
-            mayor magnitud instrumental registrada.
-
-            <b>Maule 2010:</b>
-            Mw 8,8,
-            27 de febrero.
-          </p>
-
-        </section>
-
-
-        <!-- 20 -->
-
-        <section id="s20">
-
-          <h2>
-            ⚽ Deportes
-          </h2>
-
-          <p>
-            <b>La Roja</b>
-            = selección de fútbol.
-
-            Clubes:
-            Colo-Colo,
-            Universidad de Chile,
-            Universidad Católica.
-
-            Chile ganó
-            Copa América 2015 y 2016.
-
-            <b>Marcelo Ríos</b>
-            llegó al N.º 1.
-
-            <b>Massú y González</b>
-            ganaron oros olímpicos
-            en Atenas 2004.
-
-            También rodeo,
-            hockey césped
-            y montañismo.
-          </p>
-
-        </section>
-
-
-        <!-- 21 -->
-
-        <section id="s21">
-
-          <h2>
-            🦌 Animales
-          </h2>
-
-          <p>
-            <b>Huemul + cóndor</b>
-            → escudo.
-
-            Otros:
-            pudú,
-            guanaco,
-            chinchilla
-            y zorro culpeo.
-          </p>
-
-        </section>
-
-
-        <!-- 22 -->
-
-        <section id="s22">
-
-          <h2>
-            📅 Actualidad 2026
-          </h2>
-
-          <p>
-            En 2026,
-            <b>18 de septiembre cae viernes</b>
-            y
-            <b>19 sábado</b>;
-            ambos son feriados.
-
-            El proyecto para hacer feriado
-            el <b>17 de septiembre</b>
-            no alcanzó a completar
-            su tramitación a tiempo.
-
-            No asumas que el 17 es feriado.
-          </p>
-
-          <p>
-            Celebración:
-            fondas/ramadas,
-            cueca,
-            volantines,
-            juegos tradicionales,
-            empanadas,
-            asados
-            y otras tradiciones.
-          </p>
-
-        </section>
-
-
-        <!-- 23 -->
-
-        <section id="s23">
-
-          <h2>
-            🧠 Chuleta final
-          </h2>
-
-          <div class="memory">
-
-            <span>
-              18/09/1810 → Primera Junta
-            </span>
-
-            <span>
-              12/02/1818 → Independencia
-            </span>
-
-            <span>
-              05/04/1818 → Maipú
-            </span>
-
-            <span>
-              21/05/1879 → Iquique / Prat
-            </span>
-
-            <span>
-              08/10/1879 → Angamos
-            </span>
-
-            <span>
-              07/06/1880 → Arica
-            </span>
-
-            <span>
-              1979 → Cueca nacional
-            </span>
-
-            <span>
-              1945 → Mistral Nobel
-            </span>
-
-            <span>
-              1971 → Neruda Nobel
-            </span>
-
-            <span>
-              1960 → Valdivia 9,5
-            </span>
-
-            <span>
-              2010 → 27F / Zafrada
-            </span>
-
-            <span>
-              2019 → Chimuelo
-            </span>
-
-            <span>
-              Pipeño + piña → Terremoto
-            </span>
-
-            <span>
-              Rapa Nui → moái
-            </span>
-
-            <span>
-              Chiloé → curanto
-            </span>
-
-            <span>
-              Mapocho → Santiago
-            </span>
-
-            <span>
-              Chino Ríos → “no estoy ni ahí”
-            </span>
-
-            <span>
-              Huemul + cóndor → escudo
-            </span>
-
-          </div>
-
-        </section>
-
-
-        <!-- QUIZ SEPARADO -->
-
-        <section class="study-quiz">
-
-          <h2>
-            🎯 ¿Lista para practicar?
-          </h2>
-
-          <div class="quiz-card">
-
-            <div class="quiz-card-text">
-
-              <strong>
-                Quiz Dieciochero Interactivo
-              </strong>
-
-              <span>
-                El quiz ahora tiene su propia página,
-                optimizada para responder cómodamente
-                desde el celular. Incluye corrección
-                inmediata, progreso, resultados
-                y revisión de errores.
-              </span>
-
-            </div>
-
-            <a
-              href="quiz.html"
-              class="quiz-card-button"
-            >
-              Abrir quiz →
-            </a>
-
-          </div>
-
-        </section>
-
-
-      </main>
-
-    </div>
-
-  </div>
-
-
-  <footer>
-    Material de preparación para la Trivia Dieciochera 2026 🇨🇱
-  </footer>
-
-
-  <script>
-
-    const search =
-      document.getElementById("search");
-
-    const sections =
-      document.querySelectorAll(
-        "main > section:not(.study-quiz)"
-      );
-
-    search.addEventListener(
-      "input",
-      function () {
-
-        const query =
-          this.value
-            .trim()
-            .toLowerCase();
-
-        sections.forEach(
-          function (section) {
-
-            const text =
-              section.innerText.toLowerCase();
-
-            section.style.display =
-              !query ||
-              text.includes(query)
-                ? "block"
-                : "none";
-
-          }
-        );
-
-      }
-    );
-
-  </script>
-
-</body>
-
-</html>
-```
