@@ -1,661 +1,132 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta
-    name="viewport"
-    content="width=device-width,initial-scale=1"
-  >
-  <meta
-    name="theme-color"
-    content="#fff8ed"
-  >
-
-  <title>Trivia Dieciochera 2026 — Guía completa</title>
-
-  <link
-    rel="icon"
-    type="image/svg+xml"
-    href="trivia_dieciochera_favicon.svg"
-  >
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family:
-        Inter,
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
-      background: #eef2f5;
-      color: #17202a;
-      line-height: 1.55;
-    }
-
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 30;
-      background: #102a43;
-      color: #fff;
-      box-shadow: 0 2px 12px #0002;
-    }
-
-    .nav {
-      max-width: 1450px;
-      margin: auto;
-      padding: 11px 18px;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .brand {
-      font-weight: 900;
-      white-space: nowrap;
-    }
-
-    .nav input {
-      flex: 1;
-      padding: 10px 15px;
-      border: 1px solid #ffffff33;
-      background: #ffffff12;
-      color: white;
-      border-radius: 999px;
-      outline: none;
-    }
-
-    .nav input::placeholder {
-      color: #ffffffaa;
-    }
-
-    .nav button,
-    .quiz-link {
-      padding: 9px 13px;
-      border: 0;
-      border-radius: 9px;
-      font-weight: 800;
-      cursor: pointer;
-    }
-
-    .nav button {
-      background: #fff;
-      color: #102a43;
-    }
-
-    .quiz-link {
-      background: #d62828;
-      color: #fff;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-
-    .wrap {
-      max-width: 1450px;
-      margin: auto;
-      padding: 22px 18px;
-    }
-
-    .hero {
-      background:
-        linear-gradient(
-          120deg,
-          #102a43,
-          #1d5fa7
-        );
-      color: #fff;
-      border-radius: 24px;
-      padding: 42px;
-    }
-
-    .hero h1 {
-      font-size: clamp(36px, 6vw, 70px);
-      line-height: .98;
-      margin: 0 0 14px;
-    }
-
-    .hero p {
-      font-size: 18px;
-      max-width: 900px;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 22px;
-    }
-
-    .hero-quiz {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 13px 18px;
-      border-radius: 12px;
-      background: #d62828;
-      color: #fff;
-      text-decoration: none;
-      font-weight: 900;
-    }
-
-    .cards,
-    .memory {
-      display: grid;
-      grid-template-columns:
-        repeat(
-          auto-fit,
-          minmax(210px, 1fr)
-        );
-      gap: 12px;
-    }
-
-    .cards > div {
-      background: #fff;
-      border: 1px solid #d8e0e7;
-      border-radius: 14px;
-      padding: 15px;
-    }
-
-    .hero .cards > div {
-      background: #ffffff12;
-      border-color: #ffffff22;
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .side {
-      position: sticky;
-      top: 75px;
-      align-self: start;
-      max-height: calc(100vh - 90px);
-      overflow: auto;
-      background: #fff;
-      border-radius: 16px;
-      padding: 13px;
-      box-shadow: 0 4px 18px #102a4310;
-    }
-
-    .side a {
-      display: block;
-      text-decoration: none;
-      color: #102a43;
-      padding: 7px 9px;
-      border-radius: 8px;
-      font-size: 13px;
-    }
-
-    .side a:hover {
-      background: #edf4fa;
-    }
-
-    section {
-      background: #fff;
-      border-radius: 18px;
-      padding: 28px;
-      margin-bottom: 18px;
-      box-shadow: 0 4px 18px #102a4310;
-      scroll-margin-top: 75px;
-    }
-
-    h2 {
-      color: #102a43;
-      font-size: 30px;
-      border-bottom: 3px solid #d62828;
-      padding-bottom: 8px;
-      margin: 0 0 15px;
-    }
-
-    h3 {
-      color: #1d5fa7;
-      margin-top: 22px;
-    }
-
-    .callout {
-      background: #fff4cf;
-      border-left: 5px solid #d8a31a;
-      padding: 14px 17px;
-      border-radius: 9px;
-      margin: 16px 0;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 14px 0;
-    }
-
-    th,
-    td {
-      padding: 9px;
-      border: 1px solid #d9e1e7;
-      text-align: left;
-    }
-
-    th {
-      background: #102a43;
-      color: #fff;
-    }
-
-    .memory span {
-      background: #edf5ef;
-      border: 1px solid #cfe1d3;
-      border-radius: 9px;
-      padding: 10px;
-      font-weight: 700;
-    }
-
-    .controls {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .controls button,
-    .reset {
-      border: 0;
-      border-radius: 9px;
-      padding: 10px 14px;
-      background: #102a43;
-      color: #fff;
-      font-weight: 800;
-      cursor: pointer;
-    }
-
-    .reset {
-      background: #d62828;
-    }
-
-    .small {
-      color: #5b6770;
-      font-size: 13px;
-    }
-
-    @media (max-width: 900px) {
-      .layout {
-        grid-template-columns: 1fr;
-      }
-
-      .side {
-        position: relative;
-        top: auto;
-        max-height: none;
-      }
-
-      .nav {
-        flex-wrap: wrap;
-      }
-
-      .nav input {
-        order: 3;
-        flex-basis: 100%;
-      }
-
-      .brand {
-        flex: 1;
-      }
-
-      .quiz-link {
-        font-size: 12px;
-        padding: 8px 10px;
-      }
-    }
-
-    @media print {
-      header,
-      .side,
-      .hero-actions {
-        display: none !important;
-      }
-
-      body {
-        background: #fff;
-      }
-
-      .layout {
-        display: block;
-      }
-
-      section {
-        box-shadow: none;
-        break-inside: avoid;
-      }
-    }
-
-    /* Navegación móvil */
-    .mobile-menu-btn {
-      display: none;
-    }
-
-    .mobile-overlay {
-      display: none;
-    }
-
-    .mobile-menu-head {
-      display: none;
-    }
-
-    @media (max-width: 760px) {
-      body {
-        padding-bottom: 72px;
-      }
-
-      header {
-        position: sticky;
-        top: 0;
-        z-index: 30;
-      }
-
-      header .nav {
-        padding: 10px 14px;
-        gap: 8px;
-      }
-
-      header .brand {
-        font-size: 12px;
-        white-space: nowrap;
-      }
-
-      header #search {
-        min-width: 0;
-        width: 100%;
-        font-size: 14px;
-      }
-
-      header .nav > button {
-        display: none;
-      }
-
-      .mobile-menu-btn {
-        display: flex;
-        align-items: center;
-        gap: 7px;
-        position: fixed;
-        right: 14px;
-        bottom: 14px;
-        z-index: 1000;
-        border: 0;
-        border-radius: 999px;
-        padding: 12px 16px;
-        background: #111;
-        color: #fff;
-        font-weight: 800;
-        font-size: 13px;
-        box-shadow: 0 8px 24px rgba(0,0,0,.25);
-        cursor: pointer;
-      }
-
-      .mobile-overlay {
-        position: fixed;
-        inset: 0;
-        background: rgba(0,0,0,.42);
-        z-index: 998;
-      }
-
-      .mobile-overlay.open {
-        display: block;
-      }
-
-      .side {
-        position: fixed !important;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        width: min(86vw,340px);
-        height: 100vh !important;
-        margin: 0 !important;
-        border-radius: 0 18px 18px 0;
-        z-index: 999;
-        overflow-y: auto;
-        transform: translateX(-105%);
-        transition: transform .22s ease;
-        padding: 18px 14px 28px !important;
-        background: #fff;
-        box-shadow: 12px 0 35px rgba(0,0,0,.2);
-      }
-
-      .side.open {
-        transform: translateX(0);
-      }
-
-      .mobile-menu-head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 12px;
-        font-size: 17px;
-      }
-
-      .mobile-menu-head button {
-        border: 0;
-        background: #f0f0f0;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        font-size: 25px;
-        line-height: 1;
-        cursor: pointer;
-      }
-
-      .side a {
-        display: block;
-        padding: 11px 10px;
-        border-radius: 10px;
-        margin: 2px 0;
-        font-size: 14px;
-      }
-
-      .side a:hover,
-      .side a:active {
-        background: #f1f1f1;
-      }
-
-      .side hr {
-        margin: 10px 0;
-      }
-
-      .layout {
-        display: block;
-      }
-
-      main {
-        width: 100%;
-        min-width: 0;
-      }
-
-      .wrap {
-        padding: 0 12px;
-      }
-
-      .hero {
-        padding: 24px 16px;
-      }
-
-      .hero h1 {
-        font-size: 30px;
-      }
-
-      .cards {
-        grid-template-columns: 1fr 1fr !important;
-      }
-
-      section {
-        scroll-margin-top: 72px;
-      }
-
-      section h2 {
-        font-size: 23px;
-      }
-
-      table {
-        font-size: 13px;
-      }
-    }
-
-    @media (max-width: 430px) {
-      .cards {
-        grid-template-columns: 1fr !important;
-      }
-
-      header .brand {
-        display: none;
-      }
-
-      header .nav {
-        grid-template-columns: 1fr !important;
-      }
-
-      .hero h1 {
-        font-size: 27px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <div class="nav">
-
-      <div class="brand">
-        🇨🇱 TRIVIA DIECIOCHERA 2026
-      </div>
-
-      <input
-        id="search"
-        type="search"
-        placeholder="Buscar en toda la página…"
-        aria-label="Buscar en la guía"
-      >
-
-      <a
-        href="quiz.html"
-        class="quiz-link"
-      >
-        🎯 Quiz
-      </a>
-
-      <button
-        type="button"
-        onclick="window.print()"
-      >
-        Imprimir / PDF
-      </button>
-
-    </div>
-  </header>
-
-  <div class="wrap">
-
-    <div class="hero">
-
-      <h1>
-        Trivia Dieciochera 2026
-      </h1>
-
-      <p>
-        Guía completa de estudio para la Trivia Dieciochera.
-        Todo el contenido trabajado, ordenado para estudiar rápido
-        y practicar después en un quiz separado.
-      </p>
-
-      <div class="cards">
-
-        <div>
-          <b>📚 Contenido</b><br>
-          27 temas de estudio.
-        </div>
-
-        <div>
-          <b>🎯 Práctica</b><br>
-          292 preguntas en el quiz interactivo.
-        </div>
-
-        <div>
-          <b>🔎 Buscador</b><br>
-          Encuentra cualquier concepto.
-        </div>
-
-        <div>
-          <b>📱 Responsive</b><br>
-          Funciona en computador y celular.
-        </div>
-
-      </div>
-
-      <div class="hero-actions">
-
-        <a
-          href="quiz.html"
-          class="hero-quiz"
-        >
-          🎯 Abrir Quiz Interactivo →
-        </a>
-
-      </div>
-
-    </div>
-
-    <div class="layout">
-
-      <aside class="side">
-
-        <div class="mobile-menu-head">
-          <strong>🇨🇱 MENÚ</strong>
-          <button
-            id="closeMobileMenu"
-            aria-label="Cerrar menú"
-          >
-            ×
-          </button>
-        </div>
-
-        <b>ÍNDICE</b>
-
-        <a href="#s0">🇨🇱 Portada</a>
-        <a href="#s1">🎯 Estrategia de estudio</a>
-        <a href="#s2">📜 Historia e Independencia</a>
-        <a href="#s3">🚩 Símbolos nacionales</a>
-        <a href="#s4">💃 Cueca y Fiestas Patrias</a>
-        <a href="#s5">🍴 Gastronomía y bebidas</a>
-        <a href="#s6">🪁 Juegos, huasos y rodeo</a>
-        <a href="#s7">🗺️ Geografía y regiones</a>
-        <a href="#s8">🌺 Rapa Nui, Chiloé y pueblos originarios</a>
-        <a href="#s9">🏛️ Patrimonio</a>
-        <a href="#s10">⚔️ Guerra del Pacífico</a>
-        <a href="#s11">📚 Literatura</a>
-        <a href="#s12">🎵 Música</a>
-        <a href="#s13">📺 TV y cultura pop</a>
-        <a href="#s14">😂 Virales y memes chilenos</a>
-        <a href="#s15">🗣️ Modismos</a>
-        <a href="#s16">🏙️ Santiago</a>
-        <a href="#s17">🍷 Vino</a>
-        <a href="#s18">🔭 Astronomía</a>
-        <a href="#s19">🌎 Terremotos</a>
-        <a href="#s20">⚽ Deportes</a>
-        <a href="#s21">🦌 Animales</a>
-        <a href="#s22">📅 Actualidad 2026</a>
-        <a href="#s24">🪶 Pueblos originarios</a>
-        <a href="#s25">🏛️ Presidentes</a>
-        <a href="#s26">📜 Tratados y fronteras</a>
-        <a href="#s23">🧠 Chuleta final</a>
-
-        <hr>
-
-        <a href="quiz.html">
-          <b>🎯 QUIZ INTERACTIVO →</b>
-        </a>
-
-      </aside>
-
-      <main>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff8ed"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><title>Trivia Dieciochera 2026 — Guía completa</title><link rel="icon" type="image/svg+xml" href="trivia_dieciochera_favicon.svg"><style>*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#eef2f5;color:#17202a;line-height:1.55}header{position:sticky;top:0;z-index:10;background:#102a43;color:#fff;box-shadow:0 2px 12px #0002}.nav{max-width:1450px;margin:auto;padding:11px 18px;display:flex;gap:10px;align-items:center}.brand{font-weight:900}.nav input{flex:1;padding:10px 15px;border:1px solid #ffffff33;background:#ffffff12;color:white;border-radius:999px}.nav button{padding:9px 13px;border:0;border-radius:9px;font-weight:800}.quiz-link{background:#d62828;color:#fff;text-decoration:none;white-space:nowrap;padding:9px 13px;border:0;border-radius:9px;font-weight:800;cursor:pointer}.wrap{max-width:1450px;margin:auto;padding:22px 18px}.hero{background:linear-gradient(120deg,#102a43,#1d5fa7);color:#fff;border-radius:24px;padding:42px}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.hero-quiz{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:12px;background:#d62828;color:#fff;text-decoration:none;font-weight:900}.hero h1{font-size:clamp(36px,6vw,70px);line-height:.98;margin:0 0 14px}.hero p{font-size:18px;max-width:900px}.cards,.memory{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.cards>div{background:#fff;border:1px solid #d8e0e7;border-radius:14px;padding:15px}.hero .cards>div{background:#ffffff12;border-color:#ffffff22}.layout{display:grid;grid-template-columns:280px 1fr;gap:20px;margin-top:20px}.side{position:sticky;top:75px;align-self:start;max-height:calc(100vh - 90px);overflow:auto;background:#fff;border-radius:16px;padding:13px;box-shadow:0 4px 18px #102a4310}.side a{display:block;text-decoration:none;color:#102a43;padding:7px 9px;border-radius:8px;font-size:13px}.side a:hover{background:#edf4fa}section{background:#fff;border-radius:18px;padding:28px;margin-bottom:18px;box-shadow:0 4px 18px #102a4310;scroll-margin-top:75px}h2{color:#102a43;font-size:30px;border-bottom:3px solid #d62828;padding-bottom:8px;margin:0 0 15px}h3{color:#1d5fa7;margin-top:22px}.callout{background:#fff4cf;border-left:5px solid #d8a31a;padding:14px 17px;border-radius:9px;margin:16px 0}table{width:100%;border-collapse:collapse;margin:14px 0}th,td{padding:9px;border:1px solid #d9e1e7;text-align:left}th{background:#102a43;color:#fff}.memory span{background:#edf5ef;border:1px solid #cfe1d3;border-radius:9px;padding:10px;font-weight:700}.controls{display:flex;gap:8px;flex-wrap:wrap}.controls button,.reset{border:0;border-radius:9px;padding:10px 14px;background:#102a43;color:#fff;font-weight:800;cursor:pointer}.reset{background:#d62828}.small{color:#5b6770;font-size:13px}@media print{header,.side,.hero-actions{display:none!important}body{background:#fff}.layout{display:block}section{box-shadow:none;break-inside:avoid}}
+/* Mobile navigation */
+.mobile-menu-btn{display:none}
+.mobile-overlay{display:none}
+.mobile-menu-head{display:none}
+@media (max-width:760px){
+  body{padding-bottom:72px}
+  header{position:sticky;top:0;z-index:30}
+  header .nav{padding:10px 14px;gap:8px}
+  header .brand{font-size:12px;white-space:nowrap}
+  header #search{min-width:0;width:100%;font-size:14px}
+  header .nav>button{display:none}
+  .mobile-menu-btn{display:flex;align-items:center;gap:7px;position:fixed;right:14px;bottom:14px;z-index:1000;border:0;border-radius:999px;padding:12px 16px;background:#111;color:#fff;font-weight:800;font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:pointer}
+  .mobile-menu-btn span{letter-spacing:.04em}
+  .mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,.42);z-index:998}
+  .mobile-overlay.open{display:block}
+  .side{position:fixed!important;left:0;top:0;bottom:0;width:min(86vw,340px);height:100vh!important;margin:0!important;border-radius:0 18px 18px 0;z-index:999;overflow-y:auto;transform:translateX(-105%);transition:transform .22s ease;padding:18px 14px 28px!important;background:#fff;box-shadow:12px 0 35px rgba(0,0,0,.2)}
+  .side.open{transform:translateX(0)}
+  .mobile-menu-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;font-size:17px}
+  .mobile-menu-head button{border:0;background:#f0f0f0;border-radius:50%;width:36px;height:36px;font-size:25px;line-height:1;cursor:pointer}
+  .side a{display:block;padding:11px 10px;border-radius:10px;margin:2px 0;font-size:14px}
+  .side a:hover,.side a:active{background:#f1f1f1}
+  .side hr{margin:10px 0}
+  .layout{display:block}
+  main{width:100%;min-width:0}
+  .wrap{padding:0 12px}
+  .hero{padding:24px 16px}
+  .hero h1{font-size:30px}
+  .cards{grid-template-columns:1fr 1fr!important}
+  section{scroll-margin-top:72px}
+  section h2{font-size:23px}
+  table{font-size:13px}
+}
+@media (max-width:430px){
+  .cards{grid-template-columns:1fr!important}
+  header .brand{display:none}
+  header .nav{grid-template-columns:1fr!important}
+  .hero h1{font-size:27px}
+}
+
+/* Ajustes móviles reforzados */
+@media (max-width:760px){
+  html,body{width:100%;max-width:100%;overflow-x:hidden}
+  .wrap{width:100%;max-width:100%;margin:0;padding:10px 10px 90px}
+  .hero{width:100%;margin:0 0 14px;padding:22px 15px;border-radius:18px}
+  .hero p{font-size:16px}
+  .layout{display:block!important;width:100%;margin-top:0}
+  main{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important}
+  main section{display:block!important;width:100%!important;max-width:100%!important;margin:0 0 14px;padding:20px 15px;border-radius:16px;overflow:visible}
+  section p,section li{overflow-wrap:anywhere}
+  .tablewrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{min-width:620px}
+  .side{display:block!important}
+  header .nav{width:100%;max-width:100%;overflow:hidden}
+  header #search{min-width:0;flex:1}
+}
+</style></head><body><button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-controls="mobileMenu" aria-expanded="false">☰ <span>CONTENIDOS</span></button><div class="mobile-overlay" id="mobileOverlay"></div><header><div class="nav"><div class="brand">🇨🇱 TRIVIA DIECIOCHERA 2026</div><input id="search" placeholder="Buscar en toda la página…"><a href="quiz.html" class="quiz-link">🎯 Quiz</a><button onclick="window.print()">Imprimir / PDF</button></div></header><div class="wrap"><div class="hero"><h1>Trivia Dieciochera 2026</h1><p>Guía completa de estudio para la Trivia Dieciochera. Todo el contenido trabajado, ordenado para estudiar rápido y practicar después en un quiz separado.</p><div class="cards"><div><b>📚 Contenido</b><br>27 temas de estudio.</div><div><b>🎯 Práctica</b><br>292 preguntas en el quiz interactivo.</div><div><b>🔎 Buscador</b><br>Encuentra cualquier concepto.</div><div><b>📱 Responsive</b><br>Funciona en computador y celular.</div></div><div class="hero-actions"><a href="quiz.html" class="hero-quiz">🎯 Abrir Quiz Interactivo →</a></div></div><div class="layout"><aside class="side" id="mobileMenu">
+    <div class="mobile-menu-head"><strong>🇨🇱 MENÚ</strong><button id="closeMobileMenu" aria-label="Cerrar menú">×</button></div><b>ÍNDICE</b><a href="#s0">🇨🇱 Portada</a><a href="#s1">🎯 Estrategia de estudio</a><a href="#s2">📜 Historia e Independencia</a><a href="#s3">🚩 Símbolos nacionales</a><a href="#s4">💃 Cueca y Fiestas Patrias</a><a href="#s5">🍴 Gastronomía y bebidas</a><a href="#s6">🪁 Juegos, huasos y rodeo</a><a href="#s7">🗺️ Geografía y regiones</a><a href="#s8">🌺 Rapa Nui, Chiloé y pueblos originarios</a><a href="#s9">🏛️ Patrimonio</a><a href="#s10">⚔️ Guerra del Pacífico</a><a href="#s11">📚 Literatura</a><a href="#s12">🎵 Música</a><a href="#s13">📺 TV y cultura pop</a><a href="#s14">😂 Virales y memes chilenos</a><a href="#s15">🗣️ Modismos</a><a href="#s16">🏙️ Santiago</a><a href="#s17">🍷 Vino</a><a href="#s18">🔭 Astronomía</a><a href="#s19">🌎 Terremotos</a><a href="#s20">⚽ Deportes</a><a href="#s21">🦌 Animales</a><a href="#s22">📅 Actualidad 2026</a><a href="#s24">🪶 Pueblos originarios</a><a href="#s25">🏛️ Presidentes</a><a href="#s26">📜 Tratados y fronteras</a><a href="#s23">🧠 Chuleta final</a><hr><a href="quiz.html"><b>🎯 QUIZ INTERACTIVO →</b></a></aside><main><section id="s0"><h2>🇨🇱 Portada</h2><p class="lead">Guía interactiva completa para la Trivia Dieciochera 2026. Reúne el material de estudio trabajado: historia, símbolos, cueca, gastronomía, geografía, Guerra del Pacífico, literatura, música, patrimonio, cultura pop, virales, modismos, Santiago, vino, astronomía, terremotos, deportes y actualidad 2026.</p><div class="cards"><div><b>📚 Estudio</b><br>Todo el contenido en una sola página.</div><div><b>🎯 Práctica</b><br>Quiz de alternativas con corrección inmediata.</div><div><b>🔎 Búsqueda</b><br>Busca cualquier dato dentro de la guía.</div><div><b>🇨🇱 Evento</b><br>14 de septiembre de 2026 · 19:30.</div></div></section><section id="s1"><h2>🎯 Estrategia de estudio</h2><ol><li>Identifica la categoría: historia, comida, música, geografía, deporte o cultura pop.</li><li>Busca el par: nombre + lugar, fecha + evento, canción + artista.</li><li>Usa las fechas: 1810/1818 = Independencia; 1879 = Guerra del Pacífico; 2010 = 27F.</li><li>Memoriza cadenas: <b>Prat → Esmeralda → Iquique</b>; <b>Mistral → Lucila Godoy → Nobel 1945</b>.</li><li>No sobrepienses las preguntas de cultura popular.</li></ol><div class="callout"><b>Chuleta:</b> 18/09/1810 Primera Junta · 12/02/1818 Independencia · 05/04/1818 Maipú · 21/05/1879 Iquique · 08/10/1879 Angamos · 07/06/1880 Arica.</div></section><section id="s2"><h2>📜 Historia e Independencia</h2><h3>18 de septiembre de 1810</h3><p>Conmemora la <b>Primera Junta Nacional de Gobierno</b>, no la declaración formal de independencia. La independencia fue proclamada/jurada el <b>12 de febrero de 1818</b>. Maipú, el 5 de abril de 1818, fue decisiva militarmente.</p><h3>Línea de tiempo</h3><table><tr><th>Año</th><th>Clave</th></tr><tr><td>1808</td><td>Crisis de la monarquía española.</td></tr><tr><td>1810</td><td>Primera Junta.</td></tr><tr><td>1812</td><td>Aurora de Chile / Camilo Henríquez.</td></tr><tr><td>1814</td><td>Reconquista.</td></tr><tr><td>1817</td><td>Chacabuco.</td></tr><tr><td>1818</td><td>Independencia y Maipú.</td></tr><tr><td>1823</td><td>Abdicación de O'Higgins.</td></tr><tr><td>1826</td><td>Tratado de Tantauco / incorporación de Chiloé.</td></tr></table><p><b>O'Higgins:</b> nació en Chillán Viejo en 1778, hijo de Ambrosio O'Higgins, colaboró con San Martín, fue Director Supremo y abdicó en 1823. <b>Carrera</b>, <b>Manuel Rodríguez</b>, <b>San Martín</b> y <b>Camilo Henríquez</b> son otros nombres esenciales.</p></section><section id="s3"><h2>🚩 Símbolos nacionales</h2><p><b>Bandera:</b> azul, blanco y rojo, con estrella blanca en el cantón azul. No confundir con las banderas de la Patria Vieja y Transición.</p><p><b>Escudo:</b> huemul + cóndor; lema <b>“Por la razón o la fuerza”</b>; escudo actual adoptado en 1834.</p><p><b>Himno:</b> música atribuida a <b>Ramón Carnicer</b>; letra vigente de <b>Eusebio Lillo</b>; texto original asociado a <b>Bernardo de Vera y Pintado</b>.</p></section><section id="s4"><h2>💃 Cueca y Fiestas Patrias</h2><p>La <b>cueca</b> es el baile nacional de Chile. Fue reconocida oficialmente como tal por Decreto N.º 23, publicado el 18 de septiembre de 1979. Se relaciona históricamente con la zamacueca.</p><p>Elementos: pareja frente a frente, pañuelo, vueltas, desplazamientos circulares, zapateo y escobillado. Variantes: central, nortina, chilota, brava/chora y urbanas.</p><p>Cuecas que pueden aparecer: <b>La Consentida, El Guatón Loyola, La Rosa con el Clavel</b>.</p><p>Las <b>fondas, ramadas y chinganas</b> reúnen música, baile, comida y juegos. La cumbia también es habitual durante las celebraciones.</p></section><section id="s5"><h2>🍴 Gastronomía y bebidas</h2><div class="cards"><div><b>Empanada de pino</b><br>Masa + pino; carne, cebolla y condimentos; huevo y aceituna según receta.</div><div><b>Anticucho</b><br>Trozo de carne y otros ingredientes ensartados y asados.</div><div><b>Choripán</b><br>Chorizo en pan, frecuentemente con pebre.</div><div><b>Pebre</b><br>Preparación fresca con tomate/cebolla/cilantro/ají según versión.</div><div><b>Pastel de choclo</b><br>Choclo molido sobre relleno que suele incluir pino.</div><div><b>Humitas</b><br>Masa de choclo cocida en hojas.</div><div><b>Cazuela</b><br>Caldo con carne y verduras.</div><div><b>Caldillo de congrio</b><br>Preparación de pescado asociada a Neruda.</div><div><b>Curanto</b><br>Preparación tradicional de Chiloé con piedras calientes y cocción en tierra.</div><div><b>Milcao</b><br>Preparación chilota basada en papa.</div></div><p><b>Terremoto = pipeño + helado de piña.</b> <b>Chicha</b> = bebida fermentada tradicional. <b>Mote con huesillos</b> = trigo mote + huesillos + almíbar/agua azucarada.</p></section><section id="s6"><h2>🪁 Juegos, huasos y rodeo</h2><p><b>Volantín:</b> cometa tradicional muy asociada a septiembre. <b>Trompo:</b> gira con cuerda. <b>Emboque:</b> juego de precisión. <b>Rayuela/tejo:</b> lanzamiento tradicional.</p><p><b>Huaso:</b> figura cultural rural, especialmente de la zona central; caballo, manta, chupalla, botas, espuelas.</p><p><b>Rodeo chileno:</b> pareja de jinetes intenta detener un novillo en una <b>atajada</b> dentro de una <b>medialuna</b>.</p></section><section id="s7"><h2>🗺️ Geografía y regiones</h2><p>Chile limita al oeste con el <b>Pacífico</b> y al este con los Andes. Norte Grande: Atacama, altiplano, minería. Norte Chico: valles transversales. Zona Central: Santiago, Valparaíso, agricultura y gran concentración de población. Zona Sur: lluvias, bosques, lagos y volcanes. Austral: Patagonia, fiordos, canales y glaciares.</p><p><b>16 regiones:</b> Arica y Parinacota, Tarapacá, Antofagasta, Atacama, Coquimbo, Valparaíso, Metropolitana, O'Higgins, Maule, Ñuble, Biobío, La Araucanía, Los Ríos, Los Lagos, Aysén, Magallanes y de la Antártica Chilena.</p><p><b>Asociaciones:</b> Chiloé → Los Lagos; Rapa Nui → Valparaíso; Mapocho → Santiago; Loa → norte; Bío Bío → centro-sur; Maipo → RM.</p><p>Censo 2024: <b>18.480.432 personas censadas</b>; RM cerca del 40%.</p></section><section id="s8"><h2>🌺 Rapa Nui, Chiloé y pueblos originarios</h2><p><b>Rapa Nui:</b> moái, cultura polinésica, Hanga Roa, Región de Valparaíso.</p><p><b>Chiloé:</b> archipiélago, Castro, palafitos, mitología, curanto, milcao e iglesias de madera.</p><p><b>Pueblos:</b> Aymara → altiplano norte; Lickanantay/Atacameño → Atacama interior; Diaguita → Norte Chico; Mapuche → centro-sur; Rapa Nui → isla; Kawésqar/Yagán → extremo austral. También Quechua, Colla y Chango.</p></section><section id="s9"><h2>🏛️ Patrimonio</h2><p>Sitios UNESCO que conviene reconocer: <b>Parque Nacional Rapa Nui, Iglesias de Chiloé, Valparaíso, Humberstone y Santa Laura, Sewell, cultura Chinchorro y Qhapaq Ñan</b>.</p><p><b>Sewell:</b> campamento minero asociado a El Teniente. <b>Iglesias de Chiloé:</b> arquitectura de madera con fusión de tradiciones europeas e indígenas.</p></section><section id="s10"><h2>⚔️ Guerra del Pacífico</h2><p>Conflicto de <b>1879–1884</b> entre Chile y la alianza de Perú y Bolivia. Antecedentes: disputas territoriales y económicas ligadas al desierto y salitre.</p><table><tr><th>Fecha</th><th>Asociación</th></tr><tr><td>21/05/1879</td><td>Iquique + Punta Gruesa.</td></tr><tr><td>08/10/1879</td><td>Angamos: captura del Huáscar; muere Miguel Grau.</td></tr><tr><td>07/06/1880</td><td>Toma del Morro de Arica.</td></tr><tr><td>1881</td><td>Chorrillos, Miraflores y ocupación de Lima.</td></tr><tr><td>1884</td><td>Cierre del conflicto.</td></tr></table><p><b>Iquique:</b> Arturo Prat → Esmeralda → Huáscar → Miguel Grau. <b>Punta Gruesa:</b> Carlos Condell → Covadonga → Independencia.</p></section><section id="s11"><h2>📚 Literatura</h2><p><b>Gabriela Mistral</b> = Lucila Godoy Alcayaga, Nobel 1945. <b>Pablo Neruda</b> = Nobel 1971. Otros nombres: Isabel Allende, Vicente Huidobro (creacionismo), Nicanor Parra (antipoesía), Roberto Bolaño.</p></section><section id="s12"><h2>🎵 Música</h2><p><b>Violeta Parra</b> → “Gracias a la vida”. <b>Víctor Jara</b> → Nueva Canción Chilena. <b>Margot Loyola</b> → folclor. <b>Quilapayún / Inti-Illimani</b> → Nueva Canción. <b>Los Jaivas</b> → rock + raíces latinoamericanas. <b>Los Prisioneros</b> → rock y crítica social. <b>Los Tres</b> → rock + cueca. También La Ley y Mon Laferte.</p></section><section id="s13"><h2>📺 TV y cultura pop</h2><p><b>Los Venegas</b> → sitcom. <b>Mekano</b> → cultura juvenil 2000s. <b>Morandé con Compañía</b> → humor popular. <b>Felipe Avello</b> → humor absurdo/improvisación. Reality shows, YouTube, TikTok y memes son parte de la memoria cultural contemporánea.</p></section><section id="s14"><h2>😂 Virales y memes chilenos</h2><ul><li><b>El Zafrada:</b> Víctor Díaz · Iloca · 27F 2010 · “frazada”.</li><li><b>Chimuelo:</b> Renato · catita · perro · funeral · 2019.</li><li><b>El Tarro:</b> Miguel Eduardo González · Talca · bicicleta · caída · 2014.</li><li><b>Instinto de madre leona:</b> Marcela Villarroel · perro · niño.</li><li><b>Las Calilas y las Mojo Jojo:</b> María Elena Garay · San Felipe · viral 2014; contexto real relacionado con el asesinato de su marido.</li><li><b>Adiós tía Paty, adiós tía Lela:</b> Jacqueline Carriel.</li><li><b>Me pasé po:</b> micro 712 / Transantiago · TVN.</li><li><b>Un manjars:</b> pronunciación memorable de “manjar”.</li><li><b>Sácala de ahí que se está quemando</b>, <b>la vieja roba choclo</b>, <b>Mira pa delante</b>, <b>Tuvo weno el cumpleaño</b>, <b>Engañao pa Chillán</b>, <b>El chuña</b>, <b>Papá bájame</b>, <b>Niño Poeta</b> y <b>Nancy sé digna</b>.</li></ul><p><b>“No estoy ni ahí”</b> → asociación cultural con Marcelo “Chino” Ríos; el origen exacto de la frase se ha discutido.</p></section><section id="s15"><h2>🗣️ Modismos</h2><p><b>Po</b> → partícula característica. <b>Al tiro</b> → inmediatamente. <b>Filo</b> → no importa. <b>Pololo/a</b> → pareja. <b>Guagua</b> → bebé. <b>Copete</b> → alcohol. <b>Cachái</b> → ¿entiendes? <b>Estar pato</b> → no tener dinero. <b>Cuático</b> → intenso/impresionante. <b>Fome</b> → aburrido.</p></section><section id="s16"><h2>🏙️ Santiago</h2><p>Santiago es la capital y está en la Región Metropolitana. El <b>Mapocho</b> atraviesa la ciudad. Lugares: <b>La Moneda, Plaza de Armas, Cerro San Cristóbal, Cerro Santa Lucía, Mercado Central, Parque O'Higgins, Bellavista</b>. Transporte: Metro y Red Movilidad.</p></section><section id="s17"><h2>🍷 Vino</h2><p>Valles: <b>Maipo, Colchagua, Curicó, Casablanca, Aconcagua</b>. Cepas: <b>Cabernet Sauvignon, Carmenère, Sauvignon Blanc, Chardonnay</b>. Carmenère está particularmente asociada a Chile.</p></section><section id="s18"><h2>🔭 Astronomía</h2><p>El norte, especialmente Atacama, tiene condiciones excepcionales por sequedad, altura, noches despejadas y baja contaminación lumínica. Asociaciones: <b>Atacama → ALMA → Paranal → La Silla → observatorios</b>.</p></section><section id="s19"><h2>🌎 Terremotos</h2><p>La placa de Nazca subduce bajo la Sudamericana. <b>Valdivia 1960:</b> Mw 9,5, mayor magnitud instrumental registrada. <b>Maule 2010:</b> Mw 8,8, 27 de febrero.</p></section><section id="s20"><h2>⚽ Deportes</h2><p><b>La Roja</b> = selección de fútbol. Clubes: Colo-Colo, Universidad de Chile, Universidad Católica. Chile ganó Copa América 2015 y 2016. <b>Marcelo Ríos</b> llegó al N.º 1. <b>Massú y González</b> ganaron oros olímpicos en Atenas 2004. También rodeo, hockey césped y montañismo.</p></section><section id="s21"><h2>🦌 Animales</h2><p><b>Huemul + cóndor</b> → escudo. Otros: pudú, guanaco, chinchilla y zorro culpeo.</p></section><section id="s22"><h2>📅 Actualidad 2026</h2><p>En 2026, <b>18 de septiembre cae viernes</b> y <b>19 sábado</b>; ambos son feriados. El proyecto para hacer feriado el <b>17 de septiembre</b> no alcanzó a completar su tramitación a tiempo. No asumas que el 17 es feriado.</p><p>Celebración: fondas/ramadas, cueca, volantines, juegos tradicionales, empanadas, asados y otras tradiciones.</p></section><section id="s24"><h2>🪶 Pueblos originarios de Chile</h2><p class="lead">Para la trivia conviene aprender <b>los 11 pueblos indígenas u originarios reconocidos por la ley chilena</b> y asociarlos rápidamente a territorio, cultura o dato distintivo.</p><div class="tablewrap"><table><thead><tr><th>Pueblo</th><th>Zona / asociación clave</th><th>Dato que conviene recordar</th></tr></thead><tbody>
+<tr><td><b>Aymara</b></td><td>Altiplano y Norte Grande, especialmente Arica y Parinacota y Tarapacá</td><td>Lengua y cultura andina; agricultura en terrazas y tradición textil.</td></tr>
+<tr><td><b>Quechua</b></td><td>Norte de Chile, principalmente zonas altiplánicas</td><td>Parte de una gran tradición andina extendida por varios países.</td></tr>
+<tr><td><b>Lickanantay / Atacameño</b></td><td>Desierto de Atacama, San Pedro de Atacama y cuenca del Loa</td><td>Tradición agrícola y ganadera en oasis y quebradas; estrecha relación con el desierto.</td></tr>
+<tr><td><b>Diaguita</b></td><td>Norte Chico, especialmente valles de Atacama y Coquimbo</td><td>Famosos por su cerámica decorada con diseños geométricos.</td></tr>
+<tr><td><b>Colla</b></td><td>Andes del Norte Grande y Norte Chico</td><td>Tradición pastoril y de movilidad cordillerana.</td></tr>
+<tr><td><b>Chango</b></td><td>Costa del norte de Chile</td><td>Pueblo costero asociado históricamente a la pesca y navegación.</td></tr>
+<tr><td><b>Mapuche</b></td><td>Centro-sur, especialmente Biobío, La Araucanía, Los Ríos y Los Lagos</td><td>Es el pueblo originario con mayor población en el Censo 2024.</td></tr>
+<tr><td><b>Rapa Nui</b></td><td>Isla de Rapa Nui, Región de Valparaíso</td><td>Moái, ahu, lengua rapanui y fuerte tradición polinésica.</td></tr>
+<tr><td><b>Kawésqar</b></td><td>Canales y fiordos de la Patagonia occidental</td><td>Pueblo canoero de los archipiélagos australes.</td></tr>
+<tr><td><b>Yagán</b></td><td>Extremo austral, especialmente entorno de Tierra del Fuego y canales</td><td>Pueblo canoero asociado al área del canal Beagle.</td></tr>
+<tr><td><b>Selk'nam</b></td><td>Tierra del Fuego</td><td>Pueblo cazador-recolector terrestre de la Patagonia insular.</td></tr>
+</tbody></table></div><div class="callout"><b>Dato Censo 2024:</b> 2.105.863 personas, equivalentes al <b>11,5%</b> de las personas censadas, se identificaron o consideraron pertenecientes a algún pueblo indígena u originario. Dentro de este grupo, Mapuche: 1.623.073; Aymara: 178.637; Diaguita: 153.231. </div><h3>Asociaciones rápidas para memorizar</h3><p><b>Rapa Nui → moái</b> · <b>Mapuche → centro-sur / Wallmapu</b> · <b>Yagán → canal Beagle</b> · <b>Selk'nam → Tierra del Fuego</b> · <b>Kawésqar → canales patagónicos</b> · <b>Chango → costa norte</b> · <b>Lickanantay → Atacama / Loa</b> · <b>Diaguita → Norte Chico / cerámica</b> · <b>Aymara → altiplano</b>.</p></section>
+<section id="s25"><h2>🏛️ Presidentes de Chile</h2><p class="lead">No memorices solo nombres: asocia cada Presidente con un <b>período o hecho característico</b>. La lista oficial de la Biblioteca del Congreso incluye los mandatos presidenciales; O'Higgins fue Director Supremo y no Presidente de la República. </p><div class="tablewrap"><table><thead><tr><th>Presidente / autoridad</th><th>Período aproximado</th><th>Clave de trivia</th></tr></thead><tbody>
+<tr><td><b>Bernardo O'Higgins</b></td><td>1817–1823</td><td>Director Supremo; independencia y organización de la nueva República.</td></tr>
+<tr><td><b>Ramón Freire</b></td><td>1823–1826/27</td><td>Etapa de organización republicana; campañas de Chiloé.</td></tr>
+<tr><td><b>Francisco Antonio Pinto</b></td><td>1827–1829</td><td>Presidencia en el período de organización de la República.</td></tr>
+<tr><td><b>José Joaquín Prieto</b></td><td>1831–1841</td><td>Inicio de la República Conservadora; Constitución de 1833.</td></tr>
+<tr><td><b>Manuel Bulnes</b></td><td>1841–1851</td><td>Batalla de Yungay, ocupación del Estrecho de Magallanes y expansión educacional.</td></tr>
+<tr><td><b>Manuel Montt</b></td><td>1851–1861</td><td>Ferrocarril y modernización; controversias político-religiosas.</td></tr>
+<tr><td><b>José Joaquín Pérez</b></td><td>1861–1871</td><td>Transición tras la República Conservadora.</td></tr>
+<tr><td><b>Federico Errázuriz Zañartu</b></td><td>1871–1876</td><td>Reformas liberales y secularización.</td></tr>
+<tr><td><b>Aníbal Pinto</b></td><td>1876–1881</td><td>Presidente durante gran parte de la Guerra del Pacífico.</td></tr>
+<tr><td><b>Domingo Santa María</b></td><td>1881–1886</td><td>Final de la Guerra del Pacífico; leyes laicas.</td></tr>
+<tr><td><b>José Manuel Balmaceda</b></td><td>1886–1891</td><td>Gran programa de obras públicas; Guerra Civil de 1891.</td></tr>
+<tr><tr><td><b>Jorge Montt</b></td><td>1891–1896</td><td>Tras la Guerra Civil; predominio del parlamentarismo.</td></tr>
+<tr><tr><td><b>Federico Errázuriz Echaurren</b></td><td>1896–1901</td><td>Presidencia en época de tensiones limítrofes con Argentina.</td></tr>
+<tr><td><b>Germán Riesco</b></td><td>1901–1906</td><td>Acuerdos y política exterior; Tratado de Paz de 1904 con Bolivia.</td></tr>
+<tr><td><b>Pedro Montt</b></td><td>1906–1910</td><td>Terremoto de Valparaíso de 1906; final de su mandato marcado por crisis sociales.</td></tr>
+<tr><td><b>Ramón Barros Luco</b></td><td>1910–1915</td><td>Período conocido por el uso del “barros luco” como sándwich; política parlamentaria.</td></tr>
+<tr><td><b>Juan Luis Sanfuentes</b></td><td>1915–1920</td><td>Fin de la etapa parlamentaria.</td></tr>
+<tr><td><b>Arturo Alessandri Palma</b></td><td>1920–1925 y 1932–1938</td><td>“León de Tarapacá”; Constitución de 1925 y grandes reformas políticas.</td></tr>
+<tr><td><b>Emiliano Figueroa</b></td><td>1925–1927</td><td>Breve gobierno en la transición previa a Ibáñez.</td></tr>
+<tr><td><b>Carlos Ibáñez del Campo</b></td><td>1927–1931 y 1952–1958</td><td>Dos períodos presidenciales separados por décadas.</td></tr>
+<tr><td><b>Juan Esteban Montero</b></td><td>1931–1932</td><td>Gobierno breve en la crisis de 1932.</td></tr>
+<tr><td><b>Pedro Aguirre Cerda</b></td><td>1938–1941</td><td>“Gobernar es educar”; creación de CORFO tras el terremoto de Chillán.</td></tr>
+<tr><td><b>Juan Antonio Ríos</b></td><td>1942–1946</td><td>Gobierno durante la Segunda Guerra Mundial; Chile rompió relaciones con el Eje.</td></tr>
+<tr><td><b>Gabriel González Videla</b></td><td>1946–1952</td><td>Ley de Defensa Permanente de la Democracia (“Ley Maldita”).</td></tr>
+<tr><td><b>Jorge Alessandri Rodríguez</b></td><td>1958–1964</td><td>Gobierno independiente; terremoto de 1960.</td></tr>
+<tr><td><b>Eduardo Frei Montalva</b></td><td>1964–1970</td><td>“Revolución en libertad”; chilenización del cobre.</td></tr>
+<tr><td><b>Salvador Allende</b></td><td>1970–1973</td><td>Primer marxista elegido democráticamente como presidente en Chile; nacionalización del cobre.</td></tr>
+<tr><td><b>Augusto Pinochet</b></td><td>1973–1990</td><td>Jefe de Estado de facto; Constitución de 1980; régimen militar.</td></tr>
+<tr><td><b>Patricio Aylwin</b></td><td>1990–1994</td><td>Primer Presidente de la transición democrática.</td></tr>
+<tr><td><b>Eduardo Frei Ruiz-Tagle</b></td><td>1994–2000</td><td>Modernización e internacionalización económica.</td></tr>
+<tr><td><b>Ricardo Lagos</b></td><td>2000–2006</td><td>Primer presidente socialista desde Allende; grandes obras de infraestructura.</td></tr>
+<tr><td><b>Michelle Bachelet</b></td><td>2006–2010 y 2014–2018</td><td>Primera mujer Presidenta de Chile; dos mandatos no consecutivos.</td></tr>
+<tr><td><b>Sebastián Piñera</b></td><td>2010–2014 y 2018–2022</td><td>Dos mandatos no consecutivos; terremoto y rescate de los 33 mineros durante el primero.</td></tr>
+<tr><td><b>Gabriel Boric</b></td><td>2022–2026</td><td>Presidente más joven en asumir el cargo; período marcado por proceso constitucional.</td></tr>
+<tr><td><b>José Antonio Kast</b></td><td>Desde 11/03/2026</td><td>Presidente de Chile en 2026. Asumió el 11 de marzo de 2026. </td></tr>
+</tbody></table></div><div class="callout"><b>Trampa típica:</b> O'Higgins fue <b>Director Supremo</b>, no Presidente de la República. Otro dato: Carlos Ibáñez, Arturo Alessandri, Michelle Bachelet y Sebastián Piñera tuvieron dos períodos presidenciales.</div></section>
+<section id="s26"><h2>📜 Tratados, pactos y acuerdos que pueden aparecer</h2><p class="lead">En una trivia chilena, “tratado” suele significar <b>qué países lo firmaron + año + problema que resolvió</b>.</p><div class="tablewrap"><table><thead><tr><th>Año</th><th>Tratado / acuerdo</th><th>¿Qué recordar?</th></tr></thead><tbody>
+<tr><td><b>1881</b></td><td>Tratado de Límites Chile–Argentina</td><td>Fijó las bases de la frontera, especialmente en los Andes; estableció soberanía chilena sobre el Estrecho de Magallanes y dejó cuestiones que luego requirieron demarcación y arbitrajes. </td></tr>
+<tr><td><b>1883</b></td><td>Tratado de Ancón, Chile–Perú</td><td>Puso término al estado de guerra entre ambos países; Perú cedió a perpetuidad la provincia de Tarapacá a Chile. </td></tr>
+<tr><td><b>1884</b></td><td>Pacto de Tregua Chile–Bolivia</td><td>Dejó en tregua el estado de guerra después de la Guerra del Pacífico, antes del acuerdo definitivo de 1904. </td></tr>
+<tr><td><b>1902</b></td><td>Tratado General de Arbitraje Chile–Argentina</td><td>Fortaleció la vía arbitral para resolver controversias entre ambos países.</td></tr>
+<tr><td><b>1904</b></td><td>Tratado de Paz, Amistad y Comercio Chile–Bolivia</td><td>Estableció la paz definitiva; Bolivia reconoció el dominio chileno sobre el territorio costero de Antofagasta y se establecieron compensaciones y facilidades de tránsito/ferrocarril. </td></tr>
+<tr><td><b>1929</b></td><td>Tratado de Lima Chile–Perú</td><td><b>Tacna volvió al Perú y Arica quedó en Chile</b>; junto con su Protocolo Complementario, fijó la solución de la cuestión Tacna–Arica y la frontera terrestre conocida como Línea de la Concordia. </td></tr>
+<tr><td><b>1984</b></td><td>Tratado de Paz y Amistad Chile–Argentina</td><td>Firmado en Ciudad del Vaticano; solucionó el diferendo austral relacionado con el Beagle y consolidó el compromiso de resolver controversias por medios pacíficos. </td></tr>
+<tr><td><b>1998</b></td><td>Acuerdo sobre Campos de Hielo Sur Chile–Argentina</td><td>Acuerdo para precisar el trazado fronterizo pendiente en la zona de Campos de Hielo Sur.</td></tr>
+</tbody></table></div><h3>Cadena para memorizar</h3><p><b>1881 → Argentina</b> (límites) · <b>1883 → Perú</b> (Ancón) · <b>1884 → Bolivia</b> (tregua) · <b>1904 → Bolivia</b> (paz definitiva) · <b>1929 → Perú</b> (Tacna/Arica) · <b>1984 → Argentina</b> (Paz y Amistad / Beagle).</p><div class="callout"><b>No confundir:</b> Tratado de Ancón (1883) = Perú/Tarapacá; Tratado de 1904 = Bolivia/Antofagasta; Tratado de Lima (1929) = Perú/Tacna-Arica.</div></section><section id="s23"><h2>🧠 Chuleta final</h2><div class="memory"><span>18/09/1810 → Primera Junta</span><span>12/02/1818 → Independencia</span><span>05/04/1818 → Maipú</span><span>21/05/1879 → Iquique / Prat</span><span>08/10/1879 → Angamos</span><span>07/06/1880 → Arica</span><span>1979 → Cueca nacional</span><span>1945 → Mistral Nobel</span><span>1971 → Neruda Nobel</span><span>1960 → Valdivia 9,5</span><span>2010 → 27F / Zafrada</span><span>2019 → Chimuelo</span><span>Pipeño + piña → Terremoto</span><span>Rapa Nui → moái</span><span>Chiloé → curanto</span><span>Mapocho → Santiago</span><span>Chino Ríos → “no estoy ni ahí”</span><span>Huemul + cóndor → escudo</span><span>11 pueblos originarios reconocidos → Mapuche, Aymara, Diaguita, Quechua, Lickanantay, Colla, Chango, Rapa Nui, Kawésqar, Selk'nam, Yagán</span><span>1881 → Tratado de Límites Chile–Argentina</span><span>1883 → Ancón / Perú / Tarapacá</span><span>1884 → Pacto de Tregua / Bolivia</span><span>1904 → Paz, Amistad y Comercio / Bolivia</span><span>1929 → Tratado de Lima / Tacna Perú – Arica Chile</span><span>1984 → Paz y Amistad / Argentina / Beagle</span><span>2026 → José Antonio Kast</span></div></section></main></div></div><footer style="max-width:1450px;margin:auto;padding:20px;color:#5b6770">Material de preparación para la Trivia Dieciochera. El enlace compartido fue accesible, pero su visor no expuso el texto de la conversación enlazada; por eso esta versión incorpora el material disponible y recuperado en esta conversación.</footer>
+<script>
+(function(){
+  const btn=document.getElementById('mobileMenuBtn');
+  const menu=document.getElementById('mobileMenu');
+  const overlay=document.getElementById('mobileOverlay');
+  if(!btn||!menu||!overlay)return;
+  function close(){menu.classList.remove('open');overlay.classList.remove('open');btn.setAttribute('aria-expanded','false')}
+  function open(){menu.classList.add('open');overlay.classList.add('open');btn.setAttribute('aria-expanded','true')}
+  btn.addEventListener('click',()=>menu.classList.contains('open')?close():open());
+  overlay.addEventListener('click',close);
+  document.getElementById('closeMobileMenu')?.addEventListener('click',close);
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+})();
+</script>
+</body></html>
