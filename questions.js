@@ -7,7 +7,8 @@ window.QUESTION_BANK = [
       "Batalla de Maipú",
       "Captura del Huáscar"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿En qué fecha se proclamó/juró la independencia?",
@@ -17,7 +18,8 @@ window.QUESTION_BANK = [
       "12/02/1818",
       "05/04/1818"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Cuál es el baile nacional?",
@@ -27,7 +29,8 @@ window.QUESTION_BANK = [
       "Huayno",
       "Tonada"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué animales aparecen en el escudo?",
@@ -37,7 +40,8 @@ window.QUESTION_BANK = [
       "Huemul y guanaco",
       "Águila y huemul"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué océano limita con Chile al oeste?",
@@ -47,7 +51,8 @@ window.QUESTION_BANK = [
       "Pacífico",
       "Ártico"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué ocurrió el 21 de mayo de 1879?",
@@ -57,7 +62,8 @@ window.QUESTION_BANK = [
       "Arica",
       "Angamos"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué nave comandaba Arturo Prat?",
@@ -67,7 +73,8 @@ window.QUESTION_BANK = [
       "Esmeralda",
       "Independencia"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Quién comandaba el Huáscar en Iquique?",
@@ -77,7 +84,8 @@ window.QUESTION_BANK = [
       "Arturo Prat",
       "O’Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué ocurrió en Angamos?",
@@ -87,7 +95,8 @@ window.QUESTION_BANK = [
       "Se tomó Lima",
       "Se proclamó la independencia"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Cuál era el nombre real de Gabriela Mistral?",
@@ -97,7 +106,8 @@ window.QUESTION_BANK = [
       "Rosa Godoy",
       "Gabriela Parra"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿En qué año ganó Mistral el Nobel?",
@@ -107,7 +117,8 @@ window.QUESTION_BANK = [
       "1952",
       "1971"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿En qué año ganó Neruda el Nobel?",
@@ -117,7 +128,8 @@ window.QUESTION_BANK = [
       "1971",
       "1988"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Quién está asociada a “Gracias a la vida”?",
@@ -127,7 +139,8 @@ window.QUESTION_BANK = [
       "Margot Loyola",
       "Mon Laferte"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Cuántas regiones tiene Chile?",
@@ -137,7 +150,8 @@ window.QUESTION_BANK = [
       "16",
       "17"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿A qué región pertenece Chiloé?",
@@ -147,7 +161,8 @@ window.QUESTION_BANK = [
       "Aysén",
       "Araucanía"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué río atraviesa Santiago?",
@@ -157,7 +172,8 @@ window.QUESTION_BANK = [
       "Mapocho",
       "Loa"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué es un terremoto?",
@@ -167,7 +183,8 @@ window.QUESTION_BANK = [
       "Pipeño + helado de piña",
       "Un baile"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué se asocia con Rapa Nui?",
@@ -177,7 +194,8 @@ window.QUESTION_BANK = [
       "Curanto",
       "Salitreras"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué viral se asocia a Víctor Díaz?",
@@ -187,7 +205,8 @@ window.QUESTION_BANK = [
       "El Zafrada",
       "Niño Poeta"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué viral se asocia a Renato?",
@@ -197,7 +216,8 @@ window.QUESTION_BANK = [
       "Las Calilas",
       "El Tarro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué juego gira con cuerda?",
@@ -207,7 +227,8 @@ window.QUESTION_BANK = [
       "Rayuela",
       "Volantín"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué juego se asocia al cielo de septiembre?",
@@ -217,7 +238,8 @@ window.QUESTION_BANK = [
       "Volantín",
       "Emboque"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué preparación es especialmente chilota?",
@@ -227,7 +249,8 @@ window.QUESTION_BANK = [
       "Choripán",
       "Cazuela"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué es una humita?",
@@ -237,7 +260,8 @@ window.QUESTION_BANK = [
       "Carne",
       "Bebida"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué cepa está especialmente asociada a Chile?",
@@ -247,7 +271,8 @@ window.QUESTION_BANK = [
       "Tempranillo",
       "Riesling"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué zona es famosa por observatorios?",
@@ -257,7 +282,8 @@ window.QUESTION_BANK = [
       "Chiloé",
       "Maule"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿Cuál fue el terremoto de mayor magnitud instrumental registrada?",
@@ -267,7 +293,8 @@ window.QUESTION_BANK = [
       "Chillán 1939",
       "Algarrobo 1985"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué magnitud tuvo Valdivia 1960?",
@@ -277,7 +304,8 @@ window.QUESTION_BANK = [
       "9,5",
       "10,2"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué significa “al tiro”?",
@@ -287,7 +315,8 @@ window.QUESTION_BANK = [
       "Nunca",
       "Despacio"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Qué significa “guagua”?",
@@ -297,7 +326,8 @@ window.QUESTION_BANK = [
       "Dinero",
       "Amigo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Quién llegó al N.º 1 del tenis mundial?",
@@ -307,7 +337,8 @@ window.QUESTION_BANK = [
       "Marcelo Ríos",
       "Alexis Sánchez"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué club es uno de los grandes del fútbol chileno?",
@@ -317,7 +348,8 @@ window.QUESTION_BANK = [
       "Peñarol",
       "River"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué es la medialuna?",
@@ -327,7 +359,8 @@ window.QUESTION_BANK = [
       "Observatorio",
       "Cueca"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Cuál es la capital de Los Lagos?",
@@ -337,7 +370,8 @@ window.QUESTION_BANK = [
       "Valdivia",
       "Osorno"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital de Magallanes?",
@@ -347,7 +381,8 @@ window.QUESTION_BANK = [
       "Punta Arenas",
       "Ancud"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿A qué región pertenece Rapa Nui?",
@@ -357,7 +392,8 @@ window.QUESTION_BANK = [
       "Los Lagos",
       "Biobío"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué animal es un pequeño ciervo nativo?",
@@ -367,7 +403,8 @@ window.QUESTION_BANK = [
       "Guanaco",
       "Huemul"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué grupo mezcla rock y raíces latinoamericanas?",
@@ -377,7 +414,8 @@ window.QUESTION_BANK = [
       "Chancho en Piedra",
       "Lucybell"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué grupo se asocia a crítica social?",
@@ -387,7 +425,8 @@ window.QUESTION_BANK = [
       "Huasos Quincheros",
       "Los Tres"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué grupo se asocia a rock y cueca?",
@@ -397,7 +436,8 @@ window.QUESTION_BANK = [
       "Quilapayún",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Cuál es el lema del escudo?",
@@ -407,7 +447,8 @@ window.QUESTION_BANK = [
       "Libertad o muerte",
       "Chile unido"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién compuso la música del himno?",
@@ -417,7 +458,8 @@ window.QUESTION_BANK = [
       "Violeta Parra",
       "Claudio Arrau"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién escribió la letra vigente del himno?",
@@ -427,7 +469,8 @@ window.QUESTION_BANK = [
       "Camilo Henríquez",
       "Neruda"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué es el mote con huesillos?",
@@ -437,7 +480,8 @@ window.QUESTION_BANK = [
       "Milcao",
       "Pebre"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué sitio patrimonial se asocia a El Teniente?",
@@ -447,7 +491,8 @@ window.QUESTION_BANK = [
       "Valparaíso",
       "Rapa Nui"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué ciudad es famosa por palafitos?",
@@ -457,7 +502,8 @@ window.QUESTION_BANK = [
       "Talca",
       "La Serena"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué pueblo se asocia a Rapa Nui?",
@@ -467,7 +513,8 @@ window.QUESTION_BANK = [
       "Aymara",
       "Yagán"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se asocia al altiplano norte?",
@@ -477,7 +524,8 @@ window.QUESTION_BANK = [
       "Kawésqar",
       "Mapuche"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se asocia al centro-sur?",
@@ -487,7 +535,8 @@ window.QUESTION_BANK = [
       "Aymara",
       "Chango"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se asocia al extremo austral?",
@@ -497,7 +546,8 @@ window.QUESTION_BANK = [
       "Aymara",
       "Quechua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Quién comandaba la Covadonga?",
@@ -507,7 +557,8 @@ window.QUESTION_BANK = [
       "Arturo Prat",
       "Blanco Encalada"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué nave fue capturada en Angamos?",
@@ -517,7 +568,8 @@ window.QUESTION_BANK = [
       "Unión",
       "Manco Cápac"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Quién murió en Angamos?",
@@ -527,7 +579,8 @@ window.QUESTION_BANK = [
       "O’Higgins",
       "Condell"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué conflicto ocurrió entre 1879 y 1884?",
@@ -537,7 +590,8 @@ window.QUESTION_BANK = [
       "Guerra de Arauco",
       "Independencia"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿El 17 de septiembre de 2026 es feriado?",
@@ -547,7 +601,8 @@ window.QUESTION_BANK = [
       "Sí, nacional",
       "Solo Santiago"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
   },
   {
     "q": "¿Qué días son feriados en Fiestas Patrias 2026?",
@@ -557,7 +612,8 @@ window.QUESTION_BANK = [
       "18 y 19",
       "19 y 20"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "📅 Actualidad 2026"
   },
   {
     "q": "¿Qué región concentra cerca del 40% de la población censada?",
@@ -567,7 +623,8 @@ window.QUESTION_BANK = [
       "Valparaíso",
       "Maule"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuántas personas fueron censadas en 2024?",
@@ -577,7 +634,8 @@ window.QUESTION_BANK = [
       "20,5 millones",
       "12 millones"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué palabra significa pareja?",
@@ -587,7 +645,8 @@ window.QUESTION_BANK = [
       "Copete",
       "Pato"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Qué significa “estar pato”?",
@@ -597,7 +656,8 @@ window.QUESTION_BANK = [
       "Estar cansado",
       "Estar enfermo"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Quién protagonizó “Las Calilas y las Mojo Jojo”?",
@@ -607,7 +667,8 @@ window.QUESTION_BANK = [
       "Víctor Díaz",
       "Renato"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Quién protagonizó “Adiós tía Paty”?",
@@ -617,7 +678,8 @@ window.QUESTION_BANK = [
       "María Elena Garay",
       "Violeta Parra"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué micro se asocia a “Me pasé po”?",
@@ -627,7 +689,8 @@ window.QUESTION_BANK = [
       "712",
       "405"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué niño protagonizó Chimuelo?",
@@ -637,7 +700,8 @@ window.QUESTION_BANK = [
       "Miguel",
       "Niño Poeta"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué ave era Chimuelo?",
@@ -647,7 +711,8 @@ window.QUESTION_BANK = [
       "Huemul",
       "Gaviota"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Dónde fue entrevistado El Zafrada?",
@@ -657,7 +722,8 @@ window.QUESTION_BANK = [
       "Arica",
       "Chiloé"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué terremoto originó el viral del Zafrada?",
@@ -667,7 +733,8 @@ window.QUESTION_BANK = [
       "2010",
       "2015"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué palabra quería decir “Zafrada”?",
@@ -677,7 +744,8 @@ window.QUESTION_BANK = [
       "Zanahoria",
       "Zafiro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué ciudad se asocia a El Tarro?",
@@ -687,7 +755,8 @@ window.QUESTION_BANK = [
       "Punta Arenas",
       "Iquique"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Quién es la “madre leona”?",
@@ -697,7 +766,8 @@ window.QUESTION_BANK = [
       "Renato",
       "Miguel González"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué significa “fome”?",
@@ -707,7 +777,8 @@ window.QUESTION_BANK = [
       "Rápido",
       "Caro"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Qué bebida es una preparación fermentada tradicional?",
@@ -717,7 +788,8 @@ window.QUESTION_BANK = [
       "Mote con huesillos",
       "Pebre"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué ingrediente es esencial en el pastel de choclo?",
@@ -727,7 +799,8 @@ window.QUESTION_BANK = [
       "Arroz",
       "Pescado"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué región contiene Punta Arenas?",
@@ -737,7 +810,8 @@ window.QUESTION_BANK = [
       "Los Lagos",
       "Biobío"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Coyhaique?",
@@ -747,7 +821,8 @@ window.QUESTION_BANK = [
       "Los Lagos",
       "Magallanes"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Temuco?",
@@ -757,7 +832,8 @@ window.QUESTION_BANK = [
       "Ñuble",
       "Maule"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Chillán?",
@@ -767,7 +843,8 @@ window.QUESTION_BANK = [
       "Maule",
       "Araucanía"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Rancagua?",
@@ -777,7 +854,8 @@ window.QUESTION_BANK = [
       "Valparaíso",
       "Metropolitana"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene La Serena?",
@@ -787,7 +865,8 @@ window.QUESTION_BANK = [
       "Valparaíso",
       "O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Iquique?",
@@ -797,7 +876,8 @@ window.QUESTION_BANK = [
       "Arica",
       "Atacama"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Antofagasta?",
@@ -807,7 +887,8 @@ window.QUESTION_BANK = [
       "Tarapacá",
       "Coquimbo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Copiapó?",
@@ -817,7 +898,8 @@ window.QUESTION_BANK = [
       "Antofagasta",
       "Tarapacá"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Valdivia?",
@@ -827,7 +909,8 @@ window.QUESTION_BANK = [
       "Araucanía",
       "Biobío"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Concepción?",
@@ -837,7 +920,8 @@ window.QUESTION_BANK = [
       "Araucanía",
       "Maule"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Talca?",
@@ -847,7 +931,8 @@ window.QUESTION_BANK = [
       "Ñuble",
       "Biobío"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué región contiene Valparaíso?",
@@ -857,7 +942,8 @@ window.QUESTION_BANK = [
       "Metropolitana",
       "O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital provincial de Chiloé?",
@@ -867,7 +953,8 @@ window.QUESTION_BANK = [
       "Ancud",
       "Quellón"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es el centro principal de Rapa Nui?",
@@ -877,7 +964,8 @@ window.QUESTION_BANK = [
       "Valparaíso",
       "Arica"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué patrimonio se relaciona con el salitre?",
@@ -887,7 +975,8 @@ window.QUESTION_BANK = [
       "Rapa Nui",
       "Chinchorro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué sitio patrimonial está en Valparaíso?",
@@ -897,7 +986,8 @@ window.QUESTION_BANK = [
       "Humberstone",
       "Chinchorro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué cultura se asocia a momificación artificial del norte?",
@@ -907,7 +997,8 @@ window.QUESTION_BANK = [
       "Rapa Nui",
       "Yagán"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué sistema patrimonial recorre países andinos?",
@@ -917,7 +1008,8 @@ window.QUESTION_BANK = [
       "Carretera Austral",
       "Camino Real"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué canción es de Violeta Parra?",
@@ -927,7 +1019,8 @@ window.QUESTION_BANK = [
       "Tren al sur",
       "Muevan las industrias"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué banda interpreta “Todos juntos”?",
@@ -937,7 +1030,8 @@ window.QUESTION_BANK = [
       "Los Tres",
       "Inti-Illimani"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué banda interpreta “Tren al sur”?",
@@ -947,7 +1041,8 @@ window.QUESTION_BANK = [
       "Los Tres",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué movimiento se asocia a Vicente Huidobro?",
@@ -957,7 +1052,8 @@ window.QUESTION_BANK = [
       "Realismo mágico",
       "Romanticismo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué movimiento se asocia a Nicanor Parra?",
@@ -967,7 +1063,8 @@ window.QUESTION_BANK = [
       "Romanticismo",
       "Modernismo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué término significa trabajo?",
@@ -977,7 +1074,8 @@ window.QUESTION_BANK = [
       "Fome",
       "Filo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗣️ Modismos chilenos"
   },
   {
     "q": "¿Qué es un volantín?",
@@ -987,7 +1085,8 @@ window.QUESTION_BANK = [
       "Instrumento",
       "Empanada"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué es el emboque?",
@@ -997,7 +1096,8 @@ window.QUESTION_BANK = [
       "Bebida",
       "Instrumento"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué explica principalmente la actividad sísmica chilena?",
@@ -1007,7 +1107,8 @@ window.QUESTION_BANK = [
       "Mareas",
       "Glaciares"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué placa subduce bajo la Sudamericana?",
@@ -1017,7 +1118,8 @@ window.QUESTION_BANK = [
       "Antártica",
       "Africana"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué fecha corresponde al 27F?",
@@ -1027,7 +1129,8 @@ window.QUESTION_BANK = [
       "27/02/2009",
       "27/01/2010"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué selección es La Roja?",
@@ -1037,7 +1140,8 @@ window.QUESTION_BANK = [
       "Rugby",
       "Básquetbol"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Quiénes ganaron oros olímpicos en Atenas 2004?",
@@ -1047,7 +1151,8 @@ window.QUESTION_BANK = [
       "Vidal y Sánchez",
       "Prat y Condell"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué copa ganó Chile en 2015?",
@@ -1057,7 +1162,8 @@ window.QUESTION_BANK = [
       "Eurocopa",
       "Confederaciones"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué edificio es sede del Gobierno?",
@@ -1067,7 +1173,8 @@ window.QUESTION_BANK = [
       "Palacio Cousiño",
       "Municipalidad"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Santiago y patrimonio"
   },
   {
     "q": "¿Qué observatorio está en Chile?",
@@ -1077,7 +1184,8 @@ window.QUESTION_BANK = [
       "Arecibo",
       "James Webb"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿Qué condición favorece la astronomía de Atacama?",
@@ -1087,7 +1195,8 @@ window.QUESTION_BANK = [
       "Alta humedad",
       "Nieve permanente"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿Qué elementos son esenciales en la cueca?",
@@ -1097,7 +1206,8 @@ window.QUESTION_BANK = [
       "Tambor y flauta",
       "Espada y capa"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué grupo pertenece a la Nueva Canción Chilena?",
@@ -1107,7 +1217,8 @@ window.QUESTION_BANK = [
       "Los Prisioneros",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Quién obtuvo el Nobel de 1945?",
@@ -1117,7 +1228,8 @@ window.QUESTION_BANK = [
       "Violeta Parra",
       "Nicanor Parra"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Quién obtuvo el Nobel de 1971?",
@@ -1127,7 +1239,8 @@ window.QUESTION_BANK = [
       "Nicanor Parra",
       "Bolaño"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Quién abdicó en 1823?",
@@ -1137,7 +1250,8 @@ window.QUESTION_BANK = [
       "Carrera",
       "Grau"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Qué batalla consolidó militarmente la independencia?",
@@ -1147,7 +1261,8 @@ window.QUESTION_BANK = [
       "Arica",
       "Angamos"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Qué batalla ocurrió en 1817?",
@@ -1157,7 +1272,8 @@ window.QUESTION_BANK = [
       "Tarapacá",
       "Punta Gruesa"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Qué se conmemora el 21 de mayo?",
@@ -1167,7 +1283,8 @@ window.QUESTION_BANK = [
       "Día de la Cueca",
       "Día del Huemul"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién está asociado a las Glorias Navales?",
@@ -1177,7 +1294,8 @@ window.QUESTION_BANK = [
       "Violeta Parra",
       "O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Cuál es el lema del escudo?",
@@ -1187,7 +1305,8 @@ window.QUESTION_BANK = [
       "Chile unido",
       "Vencer o morir"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué días son feriados en Fiestas Patrias 2026?",
@@ -1197,7 +1316,8 @@ window.QUESTION_BANK = [
       "19 y 20",
       "16 y 17"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
   },
   {
     "q": "¿El 17 de septiembre de 2026 es feriado?",
@@ -1207,7 +1327,8 @@ window.QUESTION_BANK = [
       "Sí, nacional",
       "Solo Santiago"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📅 Actualidad 2026"
   },
   {
     "q": "¿Qué asociación corresponde a “Zafrada”?",
@@ -1217,7 +1338,8 @@ window.QUESTION_BANK = [
       "Choclo",
       "Chimuelo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué asociación corresponde a “Chimuelo”?",
@@ -1227,7 +1349,8 @@ window.QUESTION_BANK = [
       "Terremoto",
       "Micro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué asociación corresponde a “El Tarro”?",
@@ -1237,7 +1360,8 @@ window.QUESTION_BANK = [
       "Micro 712",
       "Madre leona"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué asociación corresponde a “Madre leona”?",
@@ -1247,7 +1371,8 @@ window.QUESTION_BANK = [
       "Renato",
       "Miguel González"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué asociación corresponde a “No estoy ni ahí”?",
@@ -1257,7 +1382,8 @@ window.QUESTION_BANK = [
       "Neruda",
       "O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Cuántos pueblos indígenas u originarios reconoce la ley chilena?",
@@ -1267,7 +1393,8 @@ window.QUESTION_BANK = [
       "10",
       "11"
     ],
-    "a": 3
+    "a": 3,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se asocia especialmente con Rapa Nui y los moái?",
@@ -1277,7 +1404,8 @@ window.QUESTION_BANK = [
       "Selk'nam",
       "Aymara"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario tiene la mayor población según el Censo 2024?",
@@ -1287,7 +1415,8 @@ window.QUESTION_BANK = [
       "Mapuche",
       "Rapa Nui"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿A qué pueblo se asocia especialmente el altiplano de Arica y Parinacota?",
@@ -1297,7 +1426,8 @@ window.QUESTION_BANK = [
       "Yagán",
       "Selk'nam"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Con qué zona se asocia especialmente el pueblo Lickanantay o Atacameño?",
@@ -1307,7 +1437,8 @@ window.QUESTION_BANK = [
       "Tierra del Fuego",
       "Valdivia"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se vincula históricamente con la costa del norte de Chile?",
@@ -1317,7 +1448,8 @@ window.QUESTION_BANK = [
       "Rapa Nui",
       "Kawésqar"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se asocia con el canal Beagle?",
@@ -1327,7 +1459,8 @@ window.QUESTION_BANK = [
       "Colla",
       "Aymara"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se asocia especialmente con Tierra del Fuego?",
@@ -1337,7 +1470,8 @@ window.QUESTION_BANK = [
       "Quechua",
       "Rapa Nui"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Quién es el Presidente de Chile desde el 11 de marzo de 2026?",
@@ -1347,7 +1481,8 @@ window.QUESTION_BANK = [
       "Sebastián Piñera",
       "Ricardo Lagos"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué autoridad fue Director Supremo y no Presidente de la República?",
@@ -1357,7 +1492,8 @@ window.QUESTION_BANK = [
       "Manuel Montt",
       "Arturo Alessandri"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente gobernó Chile en dos períodos, 1952-1958 y 1927-1931?",
@@ -1367,7 +1503,8 @@ window.QUESTION_BANK = [
       "Eduardo Frei Montalva",
       "Pedro Aguirre Cerda"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente tuvo dos mandatos: 2006-2010 y 2014-2018?",
@@ -1377,7 +1514,8 @@ window.QUESTION_BANK = [
       "Sebastián Piñera",
       "Eduardo Frei Ruiz-Tagle"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente fue conocido como el “León de Tarapacá”?",
@@ -1387,7 +1525,8 @@ window.QUESTION_BANK = [
       "José Manuel Balmaceda",
       "Salvador Allende"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente estuvo en el cargo durante gran parte de la Guerra del Pacífico?",
@@ -1397,7 +1536,8 @@ window.QUESTION_BANK = [
       "José Joaquín Prieto",
       "Germán Riesco"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente gobernaba cuando ocurrió el terremoto de 1960?",
@@ -1407,7 +1547,8 @@ window.QUESTION_BANK = [
       "Eduardo Frei Montalva",
       "Carlos Ibáñez del Campo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué tratado de 1881 fijó bases de la frontera entre Chile y Argentina?",
@@ -1417,7 +1558,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de Maipú"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado de 1883 puso término al estado de guerra entre Chile y Perú?",
@@ -1427,7 +1569,8 @@ window.QUESTION_BANK = [
       "Paz y Amistad",
       "Tregua de 1884"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué acuerdo de 1884 dejó en tregua la situación entre Chile y Bolivia?",
@@ -1437,7 +1580,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de 1984"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado de 1904 estableció la paz definitiva entre Chile y Bolivia?",
@@ -1447,7 +1591,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de 1881"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué ocurrió con Tacna y Arica en el Tratado de Lima de 1929?",
@@ -1457,7 +1602,8 @@ window.QUESTION_BANK = [
       "Tacna volvió al Perú y Arica quedó en Chile",
       "Tacna quedó en Chile y Arica en Perú"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Con qué país está relacionado el Tratado de Paz y Amistad de 1984?",
@@ -1467,7 +1613,8 @@ window.QUESTION_BANK = [
       "Argentina",
       "Ecuador"
     ],
-    "a": 2
+    "a": 2,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué disputa buscó solucionar el Tratado de Paz y Amistad de 1984?",
@@ -1477,7 +1624,8 @@ window.QUESTION_BANK = [
       "Tacna-Arica",
       "La Puna de Atacama"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Cuántos pueblos indígenas u originarios reconoce actualmente la legislación chilena?",
@@ -1488,7 +1636,8 @@ window.QUESTION_BANK = [
       "12"
     ],
     "a": 2,
-    "e": "La legislación chilena reconoce 11 pueblos indígenas: Aymara, Quechua, Atacameño/Lickanantay, Chango, Diaguita, Colla, Mapuche, Selk'nam, Kawésqar, Yagán y Rapa Nui."
+    "e": "La legislación chilena reconoce 11 pueblos indígenas: Aymara, Quechua, Atacameño/Lickanantay, Chango, Diaguita, Colla, Mapuche, Selk'nam, Kawésqar, Yagán y Rapa Nui.",
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario es el más numeroso según el Censo 2024?",
@@ -1498,7 +1647,8 @@ window.QUESTION_BANK = [
       "Diaguita",
       "Rapa Nui"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se asocia tradicionalmente con el altiplano del extremo norte de Chile?",
@@ -1508,7 +1658,8 @@ window.QUESTION_BANK = [
       "Yagán",
       "Kawésqar"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿En qué zona se concentra históricamente el pueblo Lickanantay (Atacameño)?",
@@ -1518,7 +1669,8 @@ window.QUESTION_BANK = [
       "Tierra del Fuego",
       "Rapa Nui"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario tiene una relación histórica especialmente ligada a la navegación de los canales australes?",
@@ -1528,7 +1680,8 @@ window.QUESTION_BANK = [
       "Colla",
       "Aymara"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se asocia especialmente al estrecho de Magallanes y los canales patagónicos?",
@@ -1538,7 +1691,8 @@ window.QUESTION_BANK = [
       "Quechua",
       "Diaguita"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo habitó históricamente gran parte de Tierra del Fuego?",
@@ -1548,7 +1702,8 @@ window.QUESTION_BANK = [
       "Aymara",
       "Rapa Nui"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se asocia a la costa del norte semiárido de Chile?",
@@ -1558,7 +1713,8 @@ window.QUESTION_BANK = [
       "Selk'nam",
       "Mapuche"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario tiene como territorio cultural principal la isla de Rapa Nui?",
@@ -1568,7 +1724,8 @@ window.QUESTION_BANK = [
       "Diaguita",
       "Kawésqar"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario desarrolló la tradición monumental de los moái?",
@@ -1578,7 +1735,8 @@ window.QUESTION_BANK = [
       "Chango",
       "Selk'nam"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se vincula especialmente con el valle central y centro-sur de Chile?",
@@ -1588,7 +1746,8 @@ window.QUESTION_BANK = [
       "Yagán",
       "Chango"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Cuál de estos pueblos fue reconocido legalmente en Chile en 2023?",
@@ -1598,7 +1757,8 @@ window.QUESTION_BANK = [
       "Muisca",
       "Guaraní"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Cuál de estos pueblos fue reconocido legalmente en 2020?",
@@ -1608,7 +1768,8 @@ window.QUESTION_BANK = [
       "Tehuelche",
       "Atacameño"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué institución estatal se creó mediante la Ley 19.253 para asuntos de desarrollo indígena?",
@@ -1618,7 +1779,8 @@ window.QUESTION_BANK = [
       "SERNATUR",
       "INDH"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué ley es conocida como Ley Indígena de Chile?",
@@ -1628,7 +1790,8 @@ window.QUESTION_BANK = [
       "Ley 20.500",
       "Ley 21.606"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo originario se conoce también como Yámana en la legislación tradicional?",
@@ -1638,7 +1801,8 @@ window.QUESTION_BANK = [
       "Selk'nam",
       "Chango"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué nombre tradicional aparece como Kawashkar o Alacalufe?",
@@ -1648,7 +1812,8 @@ window.QUESTION_BANK = [
       "Colla",
       "Quechua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se relaciona especialmente con la zona de Copiapó y el Norte Chico?",
@@ -1658,7 +1823,8 @@ window.QUESTION_BANK = [
       "Rapa Nui",
       "Kawésqar"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Qué pueblo se relaciona históricamente con zonas cordilleranas del norte y actividades de pastoreo?",
@@ -1668,7 +1834,8 @@ window.QUESTION_BANK = [
       "Yagán",
       "Rapa Nui"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Cuál de estos NO es uno de los 11 pueblos indígenas reconocidos por la Ley 19.253 y sus modificaciones?",
@@ -1678,7 +1845,8 @@ window.QUESTION_BANK = [
       "Selk'nam",
       "Chango"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌺 Pueblos originarios"
   },
   {
     "q": "¿Quién fue el primer Presidente de la República de Chile?",
@@ -1688,7 +1856,8 @@ window.QUESTION_BANK = [
       "Ramón Freire",
       "José Joaquín Prieto"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué cargo ejerció Bernardo O'Higgins después de la independencia?",
@@ -1698,7 +1867,8 @@ window.QUESTION_BANK = [
       "Ministro del Interior",
       "Senador"
     ],
-    "a": 1
+    "a": 1,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién sucedió a Manuel Blanco Encalada como Presidente?",
@@ -1708,7 +1878,8 @@ window.QUESTION_BANK = [
       "Manuel Bulnes",
       "Francisco Antonio Pinto"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién fue Presidente durante la promulgación de la Constitución de 1833?",
@@ -1718,7 +1889,8 @@ window.QUESTION_BANK = [
       "Ramón Freire",
       "Aníbal Pinto"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente está asociado a la organización de la República conservadora y a la Constitución de 1833?",
@@ -1728,7 +1900,8 @@ window.QUESTION_BANK = [
       "Arturo Alessandri",
       "Pedro Aguirre Cerda"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién fue conocido como el 'Presidente Balmaceda'?",
@@ -1738,7 +1911,8 @@ window.QUESTION_BANK = [
       "Jorge Alessandri",
       "Patricio Aylwin"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué conflicto marcó el final del gobierno de José Manuel Balmaceda?",
@@ -1748,7 +1922,8 @@ window.QUESTION_BANK = [
       "Revolución de 1851",
       "Guerra contra España"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente estuvo al mando durante la Guerra Civil de 1891?",
@@ -1758,7 +1933,8 @@ window.QUESTION_BANK = [
       "Federico Errázuriz Echaurren",
       "Ramón Barros Luco"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente estuvo relacionado con la reconstrucción y modernización de Chile tras la Guerra del Pacífico?",
@@ -1768,7 +1944,8 @@ window.QUESTION_BANK = [
       "Pedro Aguirre Cerda",
       "Eduardo Frei Montalva"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente impulsó la Ley de Instrucción Primaria Obligatoria de 1920?",
@@ -1778,7 +1955,8 @@ window.QUESTION_BANK = [
       "Carlos Ibáñez del Campo",
       "Pedro Aguirre Cerda"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién fue el presidente asociado a la frase 'Gobernar es educar'?",
@@ -1788,7 +1966,8 @@ window.QUESTION_BANK = [
       "Jorge Alessandri",
       "Eduardo Frei Ruiz-Tagle"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente estuvo al frente de Chile durante el terremoto de Chillán de 1939?",
@@ -1798,7 +1977,8 @@ window.QUESTION_BANK = [
       "Gabriel González Videla",
       "Jorge Alessandri"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente fue conocido por el lema 'Gobernar es producir'?",
@@ -1808,7 +1988,8 @@ window.QUESTION_BANK = [
       "Gabriel González Videla",
       "Carlos Ibáñez"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente promulgó la llamada 'Ley Maldita' en 1948?",
@@ -1818,7 +1999,8 @@ window.QUESTION_BANK = [
       "Pedro Aguirre Cerda",
       "Jorge Alessandri"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente fue el primero en ser elegido bajo voto femenino presidencial en Chile?",
@@ -1828,7 +2010,8 @@ window.QUESTION_BANK = [
       "Jorge Alessandri",
       "Arturo Alessandri Palma"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente gobernaba Chile durante el gran terremoto de Valdivia de 1960?",
@@ -1838,7 +2021,8 @@ window.QUESTION_BANK = [
       "Salvador Allende",
       "Gabriel González Videla"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién impulsó la llamada 'Revolución en Libertad'?",
@@ -1848,7 +2032,8 @@ window.QUESTION_BANK = [
       "Jorge Alessandri",
       "Patricio Aylwin"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién fue el primer presidente marxista elegido democráticamente en Chile?",
@@ -1858,7 +2043,8 @@ window.QUESTION_BANK = [
       "Patricio Aylwin",
       "Eduardo Frei Montalva"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente asumió en 1990 con el retorno a la democracia?",
@@ -1868,7 +2054,8 @@ window.QUESTION_BANK = [
       "Ricardo Lagos",
       "Sebastián Piñera"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente encabezó Chile entre 1994 y 2000?",
@@ -1878,7 +2065,8 @@ window.QUESTION_BANK = [
       "Ricardo Lagos",
       "Michelle Bachelet"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente encabezó el gobierno de Chile entre 2000 y 2006?",
@@ -1888,7 +2076,8 @@ window.QUESTION_BANK = [
       "Patricio Aylwin",
       "Sebastián Piñera"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién fue la primera mujer en ejercer la Presidencia de Chile?",
@@ -1898,7 +2087,8 @@ window.QUESTION_BANK = [
       "Soledad Alvear",
       "Carolina Tohá"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente tuvo dos mandatos, 2010-2014 y 2018-2022?",
@@ -1908,7 +2098,8 @@ window.QUESTION_BANK = [
       "Patricio Aylwin",
       "Eduardo Frei Ruiz-Tagle"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente gobernó Chile entre 2022 y 2026?",
@@ -1918,7 +2109,8 @@ window.QUESTION_BANK = [
       "José Antonio Kast",
       "Ricardo Lagos"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Quién es el Presidente de Chile para el período 2026-2030?",
@@ -1929,7 +2121,8 @@ window.QUESTION_BANK = [
       "Jorge Alessandri"
     ],
     "a": 0,
-    "e": "José Antonio Kast ejerce como Presidente de la República para el período constitucional 2026-2030."
+    "e": "José Antonio Kast ejerce como Presidente de la República para el período constitucional 2026-2030.",
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente fue conocido como el 'León de Tarapacá'?",
@@ -1939,7 +2132,8 @@ window.QUESTION_BANK = [
       "Salvador Allende",
       "Carlos Ibáñez del Campo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente fue conocido como 'Don Tinto' por su imagen de austeridad?",
@@ -1949,7 +2143,8 @@ window.QUESTION_BANK = [
       "Ramón Barros Luco",
       "Jorge Alessandri"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente construyó gran parte de su identidad política alrededor de la industrialización y CORFO?",
@@ -1959,7 +2154,8 @@ window.QUESTION_BANK = [
       "Jorge Montt",
       "Patricio Aylwin"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Durante qué gobierno se creó CORFO en 1939?",
@@ -1969,7 +2165,8 @@ window.QUESTION_BANK = [
       "Gabriel González Videla",
       "Jorge Alessandri"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente gobernaba durante el plebiscito de 1988?",
@@ -1979,7 +2176,8 @@ window.QUESTION_BANK = [
       "Salvador Allende",
       "Jorge Alessandri"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué presidente recibió a la selección campeona de América tras el título de 2015?",
@@ -1989,7 +2187,8 @@ window.QUESTION_BANK = [
       "Gabriel Boric",
       "Ricardo Lagos"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🏛️ Presidentes y política histórica"
   },
   {
     "q": "¿Qué tratado de 1881 fijó el principio de la frontera cordillerana entre Chile y Argentina?",
@@ -1999,7 +2198,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Pacto de Tregua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado puso fin formalmente a la guerra entre Chile y Perú en 1883?",
@@ -2009,7 +2209,8 @@ window.QUESTION_BANK = [
       "Tratado de 1904",
       "Pacto de Tregua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué acuerdo de 1884 estableció una tregua entre Chile y Bolivia?",
@@ -2019,7 +2220,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de 1881"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado de 1904 estableció la paz definitiva entre Chile y Bolivia?",
@@ -2029,7 +2231,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de 1984"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado de 1929 resolvió la cuestión de Tacna y Arica entre Chile y Perú?",
@@ -2039,7 +2242,8 @@ window.QUESTION_BANK = [
       "Tratado de 1904",
       "Tratado de 1881"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "Según el Tratado de Lima de 1929, ¿qué ocurrió con Tacna?",
@@ -2049,7 +2253,8 @@ window.QUESTION_BANK = [
       "Se convirtió en territorio internacional",
       "Pasó a Bolivia"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "Según el Tratado de Lima de 1929, ¿qué ocurrió con Arica?",
@@ -2059,7 +2264,8 @@ window.QUESTION_BANK = [
       "Pasó a Bolivia",
       "Se convirtió en territorio internacional"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Con qué país está relacionado el Tratado de Paz y Amistad de 1984?",
@@ -2069,7 +2275,8 @@ window.QUESTION_BANK = [
       "Bolivia",
       "Ecuador"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué conflicto fronterizo buscó resolver el Tratado de Paz y Amistad de 1984?",
@@ -2079,7 +2286,8 @@ window.QUESTION_BANK = [
       "Guerra del Pacífico",
       "Puna de Atacama"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué mediación internacional fue clave en el proceso que llevó al acuerdo de 1984 con Argentina?",
@@ -2089,7 +2297,8 @@ window.QUESTION_BANK = [
       "La mediación de Brasil",
       "La mediación de Estados Unidos"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué protocolo complementario acompaña al Tratado de Lima de 1929?",
@@ -2099,7 +2308,8 @@ window.QUESTION_BANK = [
       "Protocolo de 1904",
       "Acuerdo de Santiago de 1984"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué documento de 1884 dejó pendiente la solución definitiva con Bolivia y antecedió al tratado de 1904?",
@@ -2109,7 +2319,8 @@ window.QUESTION_BANK = [
       "Tratado de Ancón",
       "Tratado de 1881"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Con qué país se firmó el Tratado de Ancón?",
@@ -2119,7 +2330,8 @@ window.QUESTION_BANK = [
       "Argentina",
       "Ecuador"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Con qué país se firmó el Tratado de Lima de 1929?",
@@ -2129,7 +2341,8 @@ window.QUESTION_BANK = [
       "Argentina",
       "Brasil"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Con qué país se firmó el Tratado de Límites de 1881?",
@@ -2139,7 +2352,8 @@ window.QUESTION_BANK = [
       "Bolivia",
       "Brasil"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado es fundamental para entender la relación territorial Chile-Bolivia posterior a la Guerra del Pacífico?",
@@ -2149,7 +2363,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima de 1929",
       "Tratado de 1984"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado de 1883 se relaciona con Tarapacá?",
@@ -2159,7 +2374,8 @@ window.QUESTION_BANK = [
       "Pacto de Tregua",
       "Tratado de 1904"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué tratado consolidó la soberanía chilena sobre los territorios ocupados desde la Guerra del Pacífico frente a Bolivia?",
@@ -2169,7 +2385,8 @@ window.QUESTION_BANK = [
       "Tratado de Lima",
       "Tratado de 1984"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Cuál de estos tratados NO es consecuencia directa de la Guerra del Pacífico?",
@@ -2179,7 +2396,8 @@ window.QUESTION_BANK = [
       "Pacto de Tregua de 1884",
       "Tratado de 1904"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué país perdió su litoral ante Chile en el proceso que culminó con el tratado de 1904?",
@@ -2189,7 +2407,8 @@ window.QUESTION_BANK = [
       "Argentina",
       "Ecuador"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Quién fue el gobernador colonial cuya designación desembocó en la Primera Junta de 1810?",
@@ -2199,7 +2418,8 @@ window.QUESTION_BANK = [
       "José Miguel Carrera",
       "Bernardo O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Cómo se apodó al período entre 1814 y 1817?",
@@ -2209,7 +2429,8 @@ window.QUESTION_BANK = [
       "Patria Vieja",
       "República Conservadora"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Cómo se llamó el período iniciado tras Chacabuco y anterior a la consolidación de la independencia?",
@@ -2219,7 +2440,8 @@ window.QUESTION_BANK = [
       "Patria Vieja",
       "Ensayos Constitucionales"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿En qué batalla fue derrotado el ejército realista en 1817?",
@@ -2229,7 +2451,8 @@ window.QUESTION_BANK = [
       "Maipú",
       "Cancha Rayada"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Qué batalla de 1818 consolidó militarmente la independencia?",
@@ -2239,7 +2462,8 @@ window.QUESTION_BANK = [
       "Rancagua",
       "Yungay"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🇨🇱 Historia e Independencia"
   },
   {
     "q": "¿Qué ciudad chilena fue importante en la expansión de la minería de plata del siglo XIX?",
@@ -2249,7 +2473,8 @@ window.QUESTION_BANK = [
       "Castro",
       "Punta Arenas"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué recurso convirtió al norte de Chile en un espacio estratégico antes y durante la Guerra del Pacífico?",
@@ -2259,7 +2484,8 @@ window.QUESTION_BANK = [
       "Cobre",
       "Petróleo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué empresa estatal chilena se creó en 1976 para administrar grandes operaciones cupríferas nacionalizadas?",
@@ -2269,7 +2495,8 @@ window.QUESTION_BANK = [
       "Enap",
       "Enaer"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué recurso mineral se asocia especialmente a Chuquicamata?",
@@ -2279,7 +2506,8 @@ window.QUESTION_BANK = [
       "Plata",
       "Litio"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚔️ Guerra del Pacífico y tratados"
   },
   {
     "q": "¿Qué ciudad fue históricamente conocida como 'la Perla del Pacífico' en Chile?",
@@ -2289,7 +2517,8 @@ window.QUESTION_BANK = [
       "Iquique",
       "La Serena"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué estrecho conecta los océanos Atlántico y Pacífico en el extremo austral?",
@@ -2299,7 +2528,8 @@ window.QUESTION_BANK = [
       "Canal Beagle",
       "Estrecho de Drake"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué paso marítimo queda al sur de Tierra del Fuego?",
@@ -2309,7 +2539,8 @@ window.QUESTION_BANK = [
       "Estrecho de Magallanes",
       "Canal de Beagle"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué isla pertenece administrativamente a la Región de Valparaíso?",
@@ -2319,7 +2550,8 @@ window.QUESTION_BANK = [
       "Tierra del Fuego",
       "Mocha"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿En qué región está el archipiélago de Chiloé?",
@@ -2329,7 +2561,8 @@ window.QUESTION_BANK = [
       "Aysén",
       "Biobío"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué cordillera recorre Chile de norte a sur por el este?",
@@ -2339,7 +2572,8 @@ window.QUESTION_BANK = [
       "Sierra Nevada",
       "Cordillera de Nahuelbuta"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la flor nacional de Chile?",
@@ -2349,7 +2583,8 @@ window.QUESTION_BANK = [
       "Añañuca",
       "Rosa mosqueta"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Cuál es el árbol nacional de Chile?",
@@ -2359,7 +2594,8 @@ window.QUESTION_BANK = [
       "Roble",
       "Peumo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué mamífero aparece junto al cóndor en el escudo nacional?",
@@ -2369,7 +2605,8 @@ window.QUESTION_BANK = [
       "Guanaco",
       "Puma"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué frase aparece en el escudo nacional?",
@@ -2379,7 +2616,8 @@ window.QUESTION_BANK = [
       "Chile siempre",
       "Libertad y unión"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién compuso la música del himno nacional chileno actual?",
@@ -2389,7 +2627,8 @@ window.QUESTION_BANK = [
       "Fray Camilo Henríquez",
       "Bernardo de Vera y Pintado"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién escribió la letra del himno nacional actual?",
@@ -2399,7 +2638,8 @@ window.QUESTION_BANK = [
       "Andrés Bello",
       "Violeta Parra"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Quién escribió el texto de la primera Aurora de Chile?",
@@ -2409,7 +2649,8 @@ window.QUESTION_BANK = [
       "Eusebio Lillo",
       "Bernardo O'Higgins"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🚩 Símbolos nacionales"
   },
   {
     "q": "¿Qué ciudad es conocida como la capital de la región de Magallanes y Antártica Chilena?",
@@ -2419,7 +2660,8 @@ window.QUESTION_BANK = [
       "Coyhaique",
       "Castro"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital de la Región de Los Ríos?",
@@ -2429,7 +2671,8 @@ window.QUESTION_BANK = [
       "Osorno",
       "Temuco"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital de la Región de Coquimbo?",
@@ -2439,7 +2682,8 @@ window.QUESTION_BANK = [
       "Ovalle",
       "Illapel"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital de la Región de Ñuble?",
@@ -2449,7 +2693,8 @@ window.QUESTION_BANK = [
       "Concepción",
       "Talca"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la capital de la Región de O'Higgins?",
@@ -2459,7 +2704,8 @@ window.QUESTION_BANK = [
       "Santa Cruz",
       "Pichilemu"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué río atraviesa Santiago?",
@@ -2469,7 +2715,8 @@ window.QUESTION_BANK = [
       "Maule",
       "Bío Bío"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué río es uno de los grandes cursos de agua del centro de Chile y da nombre a la Región del Maule?",
@@ -2479,7 +2726,8 @@ window.QUESTION_BANK = [
       "Loa",
       "Aconcagua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué río es famoso por ser el más largo de Chile?",
@@ -2489,7 +2737,8 @@ window.QUESTION_BANK = [
       "Bío Bío",
       "Baker"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué río es especialmente conocido por su caudal y por su importancia histórica en el centro-sur?",
@@ -2499,7 +2748,8 @@ window.QUESTION_BANK = [
       "Maipo",
       "Aconcagua"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué bebida se usa como base del terremoto chileno?",
@@ -2509,7 +2759,8 @@ window.QUESTION_BANK = [
       "Cerveza",
       "Chicha de manzana"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué postre se combina clásicamente con el terremoto?",
@@ -2519,7 +2770,8 @@ window.QUESTION_BANK = [
       "Helado de chocolate",
       "Helado de lúcuma"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué bebida se prepara tradicionalmente con vino y frutas como durazno?",
@@ -2529,7 +2781,8 @@ window.QUESTION_BANK = [
       "Navegado",
       "Cola de mono"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué comida chilota se cocina tradicionalmente en un hoyo con piedras calientes?",
@@ -2539,7 +2792,8 @@ window.QUESTION_BANK = [
       "Carbonada",
       "Pastel de choclo"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué preparación chilota acompaña al curanto y se hace con papa?",
@@ -2549,7 +2803,8 @@ window.QUESTION_BANK = [
       "Sopaipilla",
       "Churrasco"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🍴 Gastronomía y bebidas"
   },
   {
     "q": "¿Qué juego tradicional usa una pieza de madera con una copa o receptáculo?",
@@ -2559,7 +2814,8 @@ window.QUESTION_BANK = [
       "Trompo",
       "Volantín"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué juego consiste en lanzar un objeto hacia una línea o 'raya'?",
@@ -2569,7 +2825,8 @@ window.QUESTION_BANK = [
       "Trompo",
       "Palo encebado"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué objeto tradicional gira alrededor de una punta y una cuerda?",
@@ -2579,7 +2836,8 @@ window.QUESTION_BANK = [
       "Volantín",
       "Payaya"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué instrumento es central en muchas cuecas y tonadas?",
@@ -2589,7 +2847,8 @@ window.QUESTION_BANK = [
       "Saxofón",
       "Violín eléctrico"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "💃 Fiestas Patrias, cueca y juegos"
   },
   {
     "q": "¿Qué cantante chilena popularizó internacionalmente 'Gracias a la vida'?",
@@ -2599,7 +2858,8 @@ window.QUESTION_BANK = [
       "Palmenia Pizarro",
       "Myriam Hernández"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué banda chilena interpreta 'Todos juntos'?",
@@ -2609,7 +2869,8 @@ window.QUESTION_BANK = [
       "Los Tres",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué banda chilena interpreta 'Tren al sur'?",
@@ -2619,7 +2880,8 @@ window.QUESTION_BANK = [
       "Los Tres",
       "Illapu"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué poeta chileno escribió 'Altazor'?",
@@ -2629,7 +2891,8 @@ window.QUESTION_BANK = [
       "Nicanor Parra",
       "Roberto Bolaño"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué poeta chileno es considerado uno de los principales exponentes de la antipoesía?",
@@ -2639,7 +2902,8 @@ window.QUESTION_BANK = [
       "Vicente Huidobro",
       "Gonzalo Rojas"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué escritora chilena escribió 'La casa de los espíritus'?",
@@ -2649,7 +2913,8 @@ window.QUESTION_BANK = [
       "Marcela Paz",
       "María Luisa Bombal"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué autora creó al personaje Papelucho?",
@@ -2659,7 +2924,8 @@ window.QUESTION_BANK = [
       "Gabriela Mistral",
       "Marta Brunet"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Qué personaje infantil chileno es célebre por sus libros escritos por Marcela Paz?",
@@ -2669,7 +2935,8 @@ window.QUESTION_BANK = [
       "Mampato",
       "Barrabases"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "📚 Literatura"
   },
   {
     "q": "¿Quién creó a Condorito?",
@@ -2679,7 +2946,8 @@ window.QUESTION_BANK = [
       "René Ríos Boettiger",
       "Marta Brunet"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué personaje de historieta chilena es un niño aventurero creado por Themo Lobos?",
@@ -2689,7 +2957,8 @@ window.QUESTION_BANK = [
       "Papelucho",
       "Ogú"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué programa infantil chileno estuvo asociado a Don Francisco?",
@@ -2699,7 +2968,8 @@ window.QUESTION_BANK = [
       "Cachureos",
       "El Mundo del Profesor Rossa"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué programa infantil incluía personajes como Tulio Triviño y Juan Carlos Bodoque?",
@@ -2709,7 +2979,8 @@ window.QUESTION_BANK = [
       "Sábado Gigante",
       "Pipiripao"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué cantante chilena participa en la canción 'Tu falta de querer'?",
@@ -2719,7 +2990,8 @@ window.QUESTION_BANK = [
       "Denise Rosenthal",
       "Paloma Mami"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué grupo chileno popularizó 'La espada y la pared'?",
@@ -2729,7 +3001,8 @@ window.QUESTION_BANK = [
       "Los Prisioneros",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Qué banda estuvo liderada por Jorge González?",
@@ -2739,7 +3012,8 @@ window.QUESTION_BANK = [
       "Los Jaivas",
       "La Ley"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🎵 Música y cultura popular"
   },
   {
     "q": "¿Quién fue el primer tenista chileno en llegar al número 1 del ranking ATP?",
@@ -2749,7 +3023,8 @@ window.QUESTION_BANK = [
       "Fernando González",
       "Jaime Fillol"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿En qué ciudad se realizaron los Juegos Olímpicos en que Massú y González ganaron oros y una plata?",
@@ -2759,7 +3034,8 @@ window.QUESTION_BANK = [
       "Beijing",
       "Londres"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué chileno fue campeón olímpico de tenis en dobles junto a Fernando González en 2004?",
@@ -2769,7 +3045,8 @@ window.QUESTION_BANK = [
       "Jaime Fillol",
       "Hans Gildemeister"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué selección ganó Chile en las finales de Copa América de 2015 y Copa América Centenario 2016?",
@@ -2779,7 +3056,8 @@ window.QUESTION_BANK = [
       "Perú",
       "Colombia"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿En qué país se disputó la Copa América Centenario de 2016?",
@@ -2789,7 +3067,8 @@ window.QUESTION_BANK = [
       "Brasil",
       "Argentina"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "⚽ Deportes"
   },
   {
     "q": "¿Qué observatorio astronómico internacional se ubica en la Región de Antofagasta?",
@@ -2799,7 +3078,8 @@ window.QUESTION_BANK = [
       "Arecibo",
       "Mauna Kea"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿En qué región se ubica el observatorio Paranal?",
@@ -2809,7 +3089,8 @@ window.QUESTION_BANK = [
       "Atacama",
       "Valparaíso"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿Qué característica del desierto de Atacama favorece los observatorios astronómicos?",
@@ -2819,7 +3100,8 @@ window.QUESTION_BANK = [
       "Lluvias diarias",
       "Nubes permanentes"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🔭 Astronomía"
   },
   {
     "q": "¿Qué magnitud alcanzó el terremoto de Valdivia de 1960?",
@@ -2829,7 +3111,8 @@ window.QUESTION_BANK = [
       "Mw 7,2",
       "Mw 6,8"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué magnitud tuvo el terremoto del Maule de 2010?",
@@ -2839,7 +3122,8 @@ window.QUESTION_BANK = [
       "Mw 9,5",
       "Mw 8,0"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué placa tectónica se introduce bajo la placa Sudamericana frente a Chile?",
@@ -2849,7 +3133,8 @@ window.QUESTION_BANK = [
       "Africana",
       "Euroasiática"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Cómo se llama el fenómeno por el que una placa tectónica se hunde bajo otra?",
@@ -2859,7 +3144,8 @@ window.QUESTION_BANK = [
       "Erosión",
       "Obducción aérea"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🌎 Terremotos y geología"
   },
   {
     "q": "¿Qué volcán es uno de los más famosos de la Región de La Araucanía?",
@@ -2869,7 +3155,8 @@ window.QUESTION_BANK = [
       "Láscar",
       "Llullaillaco"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Cuál es la montaña más alta de Chile y también el volcán más alto del mundo?",
@@ -2879,7 +3166,8 @@ window.QUESTION_BANK = [
       "Llullaillaco",
       "Villarrica"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "🗺️ Geografía y regiones"
   },
   {
     "q": "¿Qué meme chileno popularizó la palabra 'zafrada'?",
@@ -2889,7 +3177,8 @@ window.QUESTION_BANK = [
       "El Tarro",
       "Madre Leona"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué viral chileno gira alrededor del funeral de una pequeña ave?",
@@ -2899,7 +3188,8 @@ window.QUESTION_BANK = [
       "Zafrada",
       "Un manjars"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Quién protagonizó el viral conocido como 'El Tarro'?",
@@ -2909,7 +3199,8 @@ window.QUESTION_BANK = [
       "Renato",
       "Marcela Villarroel"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   },
   {
     "q": "¿Qué expresión quedó asociada al personaje viral conocido como 'El Zafrada'?",
@@ -2919,6 +3210,7 @@ window.QUESTION_BANK = [
       "No estoy ni ahí",
       "Un manjars"
     ],
-    "a": 0
+    "a": 0,
+    "topic": "😂 Virales y memes chilenos"
   }
 ];

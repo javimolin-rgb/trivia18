@@ -22,18 +22,33 @@
     <h1>Quiz Dieciochero</h1>
     <p>Pon a prueba cuánto sabes de Chile.</p>
     <div class="intro-cards">
-      <div><strong>🎯</strong><span>Una pregunta a la vez</span></div>
+      <div><strong>📚</strong><span>17 temas</span></div>
       <div><strong>⚡</strong><span>Corrección inmediata</span></div>
-      <div><strong>📚</strong><span>292 preguntas</span></div>
+      <div><strong>🎯</strong><span>Elige qué estudiar</span></div>
     </div>
-    <button id="startBtn" class="primary-btn start-btn" type="button">Comenzar quiz →</button>
+    <button id="startBtn" class="primary-btn start-btn" type="button">Ver temas →</button>
     <p id="loading" class="loading">Cargando preguntas…</p>
     <p id="loadError" class="load-error" hidden></p>
   </section>
 
+  <section id="topicScreen" class="topic-screen" hidden>
+    <div class="topic-header">
+      <div>
+        <p class="result-label">MODO DE ESTUDIO</p>
+        <h2>Elige un tema</h2>
+        <p>Avanza tema por tema. No tienes que responder las 292 preguntas de una sola vez.</p>
+      </div>
+      <div class="topic-total"><strong id="topicCount">17</strong><span>temas</span></div>
+    </div>
+    <div id="topicGrid" class="topic-grid"></div>
+  </section>
+
   <section id="quizScreen" class="quiz-screen" hidden>
     <div class="quiz-header">
-      <div class="question-counter"><span id="questionNumber">Pregunta 1 de 292</span></div>
+      <div>
+        <div class="question-counter"><span id="questionNumber">Pregunta 1 de 10</span></div>
+        <div id="topicLabel" class="topic-label">Tema</div>
+      </div>
       <div class="score-pill"><span id="score">0</span><span>correctas</span></div>
     </div>
     <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
@@ -42,6 +57,7 @@
       <button id="previousBtn" class="secondary-btn" type="button">← Anterior</button>
       <button id="continueBtn" class="primary-btn continue-btn" type="button" disabled>Continuar →</button>
     </div>
+    <button id="exitTopicBtn" class="topic-exit-btn" type="button">← Volver a temas</button>
   </section>
 
   <section id="resultScreen" class="result-screen" hidden>
@@ -50,13 +66,15 @@
     <div id="percentage" class="percentage">0%</div>
     <h2>¡Terminaste el quiz!</h2>
     <p id="resultSummary" class="result-summary"></p>
+    <div id="resultTopic" class="result-topic"></div>
     <div class="result-stats">
       <div class="result-stat correct-stat"><strong id="correctCount">0</strong><span>Correctas</span></div>
       <div class="result-stat wrong-stat"><strong id="wrongCount">0</strong><span>Incorrectas</span></div>
     </div>
     <div class="result-actions">
-      <button id="retryBtn" class="primary-btn" type="button">Repetir quiz</button>
+      <button id="retryBtn" class="primary-btn" type="button">Repetir tema</button>
       <button id="reviewBtn" class="secondary-btn" type="button">Revisar errores</button>
+      <button id="topicsBtn" class="secondary-btn" type="button">Elegir otro tema</button>
       <a href="index.html" class="guide-btn">← Volver a estudiar</a>
     </div>
   </section>
